@@ -359,3 +359,7 @@ footer .footer-below {
     height: 256px;
     border-radius: 50%;
 }
+
+.social-links {
+    padding-top: 1em;
+}
