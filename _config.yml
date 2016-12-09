@@ -1,0 +1,11 @@
+# Site settings
+title: Joy Clark - Software Developer
+email: clark.joy@gmail.com
+description: > # I am a crazy software developer who loves learning and is obsessed with functional programming and trying to find her place in the huge and diverse world of software today.
+baseurl: ""
+url: "http://joyclark.org" # the base hostname & protocol for your site
+twitter_username: iamjoyclark
+github_username:  joyclark
+
+# Build settings
+markdown: kramdown
