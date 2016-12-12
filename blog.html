@@ -7,7 +7,9 @@ page-title: You should look at...
 <ul>
     {% for post in site.posts %}
     <li>
-        <a class="post-title" href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a>
+        <a class="post-title" href="{{ post.url | prepend: site.baseurl}}">
+            {{ post.categories | first | capitalize }}: {{ post.post-title }}
+        </a>
         <div class="post-meta-info">
             Posted on: {{ post.date | date: '%B %d, %Y' }}
         </div>
