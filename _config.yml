@@ -9,3 +9,6 @@ github_username:  joyclark
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-feed
