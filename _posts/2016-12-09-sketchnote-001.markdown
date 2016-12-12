@@ -1,0 +1,19 @@
+---
+layout: post
+title: "My First Sketchnote"
+post-title: "The Terminal Workshop 2016"
+date: 2016-12-09 18:00
+categories: sketchnote
+---
+
+My company [innoQ](https://www.innoq.com/) had an awesome workshop about
+the terminal and I got an opportunity to try out my new hobby, sketchnoting.
+
+I am rather pleased with the result and hope there will be many more
+opportunities to practice in the coming year.
+
+![Sketchnote Part 1](/img/2016-12-09-terminal-1.jpg "Sketchnote Part 1")
+
+![Sketchnote Part 2](/img/2016-12-09-terminal-2.jpg "Sketchnote Part 2")
+
+![Sketchnote Part 3](/img/2016-12-09-terminal-3.jpg "Sketchnote Part 3")
