@@ -1,0 +1,20 @@
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.post-header {
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    font-size: 72px;
+    text-align: center;
+    text-transform: none;
+    padding-top: 100px;
+}
+
+.post-content {
+    font-size: 20px;
+}
+
+.post-title {
+    font-size: 40px;
+}

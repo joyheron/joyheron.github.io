@@ -109,11 +109,6 @@ header .intro-text .skills {
 }
 
 @media(min-width:768px) {
-    header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
-    }
-
     header .intro-text .name {
         font-size: 4.75em;
     }
@@ -292,7 +287,8 @@ footer h3 {
 }
 
 footer .footer-above {
-    padding-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     background-color: #2c3e50;
 }
 
