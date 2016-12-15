@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Project Panama"
+post-title: "rheinJUG: Project Panama"
+date: 2017-04-20 21:00
+categories: sketchnote rheinJUG
+tags: talk
+---
+
+I'm one of the organizers for the [rheinJUG](http://rheinjug.de/), and I think it's a great way to get an overview of a topic without having to look into it too deeply.
+
+This talk was a good example of that. I've never really done anything with JNI or interacting with C libraries from within Java, but I thought the talk was interesting ([Christoph Engelbert](https://twitter.com/noctarius2k) is a great speaker) and I definitely learned a lot.
+
+I also thought that this was a good example of how you can really sketchnote with any material that you want. I completely forgot my sketchnoting stuff, and I ended up borrowing a piece of paper from someone and doing a sketchnote with a ballpoint pen. I think the result is pretty nice and definitely helps me remember what went on in the talk (which, afterall, is the most important reason for sketchnoting).
+
+![Project Panama](/img/2017-04-20-rheinjug/1.jpg "Project Panama")
+![Project Panama](/img/2017-04-20-rheinjug/2.jpg "Project Panama")

@@ -1,0 +1,66 @@
+---
+layout: post
+title: "TopConf Linz 2017"
+post-title: "TopConf Linz 2017"
+date: 2017-03-02 18:00
+categories: sketchnote conference
+tags: topconf
+---
+
+I had the opportunity to go to the [TopConf Linz](https://www.topconf.com/conference/linz-2017) in order to talk about Clojure Web Applications (one of my all-time favorite topics.) It was a lot of fun and I enjoyed meeting some new people and having interesting discussions. It might have been nice if there were more girls there, but I'm used to that particular problem...
+
+Of course, I also took the opportunity to sketchnote as much as possible. It was a four-track conference, which I didn't like that much since I had to miss a lot of interesting talks. So here they are. :)
+
+'Load Shedding and Traffic Management' from Lukáš Ježek
+
+![Load Shedding and Traffic Management](/img/2017-03-01-topconf-linz/1.jpg "Load Shedding and Traffic Management")
+
+'CSS Grid: A talk of Hypnotoad and ALL THE GLORY TO THE NEW CSS LAYOUT' from Phil Reither
+
+Joy's Note: I officially fell in love with Flexbox during this talk
+
+![CSS Grid: A talk of Hypnotoad and ALL THE GLORY TO THE NEW CSS LAYOUT](/img/2017-03-01-topconf-linz/2.jpg "CSS Grid: A talk of Hypnotoad and ALL THE GLORY TO THE NEW CSS LAYOUT")
+
+'Rust for serious developers' from Armin Ronacher
+
+![Rust for serious developers](/img/2017-03-01-topconf-linz/3.jpg "Rust for serious developers")
+
+'The Day After Tomorrow' from Nicole Rauch and Michael Sperber
+
+Joy's Note: I thought it was really interesting to see an Idris talk and actually got me thinking about formal methods (which was my focus during my studies) and how Idris (or a language like it) might actually make it easier to practically develop safety critical systems.
+
+![The Day After Tomorrow](/img/2017-03-01-topconf-linz/4.jpg "The Day After Tomorrow")
+
+'A Story about Hamburger, Modals, and Carrousels' from Klemens Schreiber
+
+![A Story about Hamburger, Modals, and Carrousels](/img/2017-03-01-topconf-linz/5.jpg "A Story about Hamburger, Modals, and Carrousels")
+
+'UX Reports from the Trenches' from Klaus Enzenhofer
+
+![UX Reports from the Trenches](/img/2017-03-01-topconf-linz/6.jpg "UX Reports from the Trenches")
+
+'30 Months of Microservices' from Sander Hoogendoorn
+
+![30 Months of Microservices](/img/2017-03-01-topconf-linz/7.jpg "30 Months of Microservices")
+
+'Value over Projects' from Allan Kelley
+
+![Value over Projects](/img/2017-03-01-topconf-linz/8.jpg "Value over Projects")
+
+'Microservices without Servers' from James Thomas
+
+![Microservices without Servers](/img/2017-03-01-topconf-linz/9.jpg "Microservices without Servers")
+
+'I just Hacked Your App' from Marcos Placona
+
+![I just Hacked Your App](/img/2017-03-01-topconf-linz/10.jpg "I just Hacked Your App")
+
+'Secret Management in Vault' from Moritz Heiber
+
+![Secret Management in Vault](/img/2017-03-01-topconf-linz/11.jpg "Secret Management in Vault")
+
+'Motivating Developers with Purposeful Work' from Markus Tacker
+
+![Motivating Developers with Purposeful Work](/img/2017-03-01-topconf-linz/12.jpg "Motivating Developers with Purposeful Work")
+
+I've tried to mention twitter handles within the sketchnotes, and if you are interested in more information about the speakers, then you can find it on the [TopConf Website](https://www.topconf.com/conference/linz-2017). Attribution is important!

@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Design: The Good, The Bad, The Effective"
+post-title: "Design: The Good, The Bad, The Effective"
+date: 2017-02-03 13:45
+categories: sketchnote ddd
+---
+
+My [recent post](http://joyclark.org/sketchnote/ddd/2017/01/15/10-problems.html) about common problems in software project has gotten a lot of positive feedback.
+
+The bad news is that I've only gotten a few pages further while reading _Domain Driven Design Distilled_ by Vaughn Vernon. 
+
+The good news is that those pages contained more than enough information to create a new sketchnote.
+
+What can I say?
+
+It's a very good book, and there are a lot of sketchable things in it...
+
+![Types of Design](/img/2017-02-03-design.jpg "Types of Design")

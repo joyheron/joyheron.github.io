@@ -1,0 +1,54 @@
+---
+layout: post
+title: ":clojureD"
+post-title: ":clojureD: Awesome Clojure Conference in Germany"
+date: 2017-02-25 18:00
+categories: sketchnote conference
+tags: clojure
+---
+
+I'm never shy about admitting that Clojure is my absolute favorite language. I absolutely loved visiting the [:clojureD conference](http://clojured.de) in Berlin. It was my very first (and will definitely not be my very last) Clojure conference. It was also my first experience getting to know the larger Clojure community in Germany and Europe. I got to help with moderating the event, which was a lot of fun, and I got an opportunity to do a lot of sketchnotes. :)
+
+I didn't get the chance to see all of the talks (it was a two track conference), but I took notes for the ones that I did talk. All of the talks are now online, so I have a lot of video to review.
+
+'Speculative Development: Leveraging clojure.spec' from Andrew McVeigh
+
+![Speculative Development: Leveraging clojure.spec](/img/2017-02-25-clojureD/1.jpg "Speculative Development: Leveraging clojure.spec")
+
+'Writing Clojure at Runtime with Nightlight' by Zach Oakes
+
+![Writing Clojure @ Runtime w/ Nightlight](/img/2017-02-25-clojureD/2.jpg "Writing Clojure @ Runtime w/ Nightlight")
+
+'Lost in Transduction' from Christophe Grand
+
+![Lost in Transduction](/img/2017-02-25-clojureD/3.jpg "Lost in Transduction")
+
+'Let's Replicate State together' from Christian Weilbach
+
+![Let's Replicate State together](/img/2017-02-25-clojureD/4.jpg "Let's Replicate State together")
+
+'Powerful Data Access in Clojure' from Yannick Scherer
+
+![Powerful Data Access in Clojure](/img/2017-02-25-clojureD/5.jpg "Powerful Data Access in Clojure")
+
+'The Symmetries of Things' from Tom Hall
+
+![The Symmetries of Things](/img/2017-02-25-clojureD/6.jpg "The Symmetries of Things")
+
+'Testing with Mutants' from Jan Stępień
+
+![Testing with Mutants](/img/2017-02-25-clojureD/7.jpg "Testing with Mutants")
+
+'Making Video Games and Learning Clojure' from Lisa Passing
+
+![Making Video Games and Learning Clojure](/img/2017-02-25-clojureD/8.jpg "Making Video Games and Learning Clojure")
+
+'How Broken are our Secrets?' from Dmitry Groshev
+
+![How Broken are our Secrets](/img/2017-02-25-clojureD/9.jpg "How Broken are our Secrets")
+
+And we wrapped up with some lightning talks from Zach Oakes, Michael Pershyn, Sanel Zukan, Bozhidar Batsov, and Michael Jerger.
+
+![Lightning Talks](/img/2017-02-25-clojureD/10.jpg "Lightning Talks")
+
+I've tried to write the twitter handle of the speaker (if they had one) in the Sketchnote. Attribution is very important! The [:clojureD website](http://clojured.de) also has more information about the speakers and links to the videos of the talks.

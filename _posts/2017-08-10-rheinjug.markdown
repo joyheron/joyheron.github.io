@@ -1,0 +1,18 @@
+---
+layout: post
+title: "About DDD, CQRS, and Event Sourcing"
+post-title: "rheinJUG: About DDD, CQRS, and Event Sourcing"
+date: 2017-08-10 21:30
+categories: sketchnote rheinJUG
+tags: talk
+---
+
+[Marco Heimeshoff](https://twitter.com/Heimeshoff) gave an absolutely amazing talk about DDD at the rheinJUG. It was very beginner friendly (so perfect for me), and I just might have fallen in love with DDD during the talk. I also ABSOLUTELY LOVED the hand done slides! Some of the slides I just had to copy for my sketchnote. :)
+
+As far as the actually sketchnotes go, I had fun playing with color. I got a whole bunch of new Neuland markers recently and have been trying to strategically use color. I think I will be sticking with 3 colors + 1 shadow color for the forseeable future. I like the effect.
+
+![About DDD, CQRS, and Event Sourcing](/img/2017-08-10-rheinjug/2.jpg "About DDD, CQRS, and Event Sourcing")
+
+Marco had problems with the train and was late, so [Jens Bendisposto](https://twitter.com/jbendisposto) gave a pre-RheinJUG talk about software horror stories. That was also fun to sketchnote. :)
+
+![Software Horror Stories](/img/2017-08-10-rheinjug/1.jpg "Software Horror Stories")

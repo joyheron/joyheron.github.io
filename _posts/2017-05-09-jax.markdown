@@ -1,0 +1,68 @@
+---
+layout: post
+title: "JAX 2017"
+post-title: "JAX 2017"
+date: 2017-05-11 18:00
+categories: sketchnote conference
+tags: jax
+---
+
+This year was the first year I've been able to go to the [JAX](https://jax.de/). I went and hung out at our [innoQ](https://innoq.com) table and took the opportunity to go see a bunch of talks and make a lot of sketchnotes.
+
+It was my first experience at a really really huge conference, and there were so many tracks and so many different talks that I wasn't able to see everything of course. I did see a lot of nice talks, met a lot of nice people, and learned a lot of new things. :)
+
+'The Truth about "you build it, you run it"' from Uwe Friedrichsen
+
+![The Truth about "you build it, you run it"](/img/2017-05-09-jax/1.jpg "The Truth about you build it, 'you run it'")
+
+'Data Architecture - Not just for Microservices' from Eberhard Wolff
+
+![Data Architecture - Not just for Microservices](/img/2017-05-09-jax/2.jpg "Data Architecture - Not just for Microservices")
+
+'Microservices <3 Domain Driven Design' from Michael Plöd
+
+![Microservices <3 Domain Driven Design](/img/2017-05-09-jax/3.jpg "Microservices <3 Domain Driven Design")
+
+'Skalierbare Infrastruktur ohne Server' from Sascha Möllering and Steffen Grunwald
+
+![Skalierbare Infrastruktur ohne Server](/img/2017-05-09-jax/4.jpg "Skalierbare Infrastruktur ohne Server")
+
+'Spring 5: Themes & Trends' from Stéphane Nicoll
+
+![Spring 5: Themes & Trends](/img/2017-05-09-jax/5.jpg "Spring 5: Themes & Trends")
+
+'Sneak Peek on Spring Data Kay' from Christoph Strobl
+
+![Sneak Peek on Spring Data Kay](/img/2017-05-09-jax/6.jpg "Sneak Peek on Spring Data Kay")
+
+'GRPC: High Performance Open-Source Universal RPC Framework' from Mete Atamel
+
+![GRPC: High Performance Open-Source Universal RPC Framework](/img/2017-05-09-jax/7.jpg "GRPC: High Performance Open-Source Universal RPC Framework")
+
+'arc42: Dokumentation am (Riesen-)Beispiel' from Ralph Müller and Gernot Starke
+
+I borrowed a Microsoft Surface Tablet, and this was my very first digital sketchnote!
+
+![arc42: Dokumentation am (Riesen-)Beispiel](/img/2017-05-09-jax/8.jpg "arc42: Dokumentation am Riesen-Beispiel")
+
+'Schlimmer geht Immer: Eine Auswahl an Top-Hacks der letzten Monate' from Christian Schneider
+
+I absolutely loved this talk!!! This was more _notetaking_ and less _sketchnoting_ since I wanted to write down absolutely everything... But there might be a video recording of the talk, and if so (and if you speak German), you should definitely check that out!
+
+![Schlimmer geht Immer: Eine Auswahl an Top-Hacks der letzten Monate](/img/2017-05-09-jax/9.jpg "Schlimmer geht Immer: Eine Auswahl an Top-Hacks der letzten Monate")
+
+'Security & Single-Sign-On for Web APIs' from Niko Köbler
+
+I thought this was a really good intro to authentication and authorization and OpenID Connect!
+
+![Security & Single-Sign-On for Web APIs](/img/2017-05-09-jax/10.jpg "Security & Single-Sign-On for Web APIs")
+
+'Schliemanns Erben: Systemlandschaften wirkungsvoll (nach-)dokumentieren' from Stéphane Nicoll
+
+![Schliemanns Erben: Systemlandschaften wirkungsvoll (nach-)dokumentieren](/img/2017-05-09-jax/11.jpg "Schliemanns Erben: Systemlandschaften wirkungsvoll nachdokumentieren")
+
+'Der normale Wahnsinn eines (gar nicht so) hypothetischen Systems' from Gernot Starke
+
+![Der normale Wahnsinn eines (gar nicht so) hypothetischen Systems](/img/2017-05-09-jax/12.jpg "Der normale Wahnsinn eines gar nicht so hypothetischen Systems")
+
+Attribution is important! I have noted the name and twitter handle (where possible) of all of the speakers in the sketchnotes. If you find the sketchnote interesting, check out the speaker to see what other interesting things they have done! The [JAX conference](https://jax.de/) might also have a video of the conference.

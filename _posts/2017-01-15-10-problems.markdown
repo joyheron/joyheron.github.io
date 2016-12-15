@@ -1,0 +1,25 @@
+---
+layout: post
+title: "10 Problems in Software Projects"
+post-title: "10 Problems in Software Projects"
+date: 2017-01-15 20:00
+categories: sketchnote ddd
+---
+
+I [recently](https://twitter.com/iamjoyclark/status/819625907182850048) got my hands on a copy of Domain Driven Design Distilled by Vaughn Vernon. 
+
+I've been considering getting into Domain Driven Design for a while now because I think it could be a good tool for achieving [simplicity](https://www.innoq.com/en/blog/simplicity-fighting-complexity/) in software projects. The book by Vaughn Vernon was recommended to me as a good starting point.
+
+As an introduction to the reason why to use DDD, the author listed out 10 problems that are commonly found in software projects (which also should be able to be solved using DDD).
+
+I agreed with a lot of them. 
+
+And I thought to myself...
+
+That would make a good sketchnote!
+
+So I made one.
+
+I'm looking forward to the rest of the book.
+
+![10 Problems in Software Projects](/img/2017-01-15-10-problems.jpg "10 Problems in Software Projects")
