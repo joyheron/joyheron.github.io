@@ -1,0 +1,20 @@
+---
+layout: post
+title: "DDD Training"
+post-title: "DDD Training with Michael Plöd"
+date: 2017-08-23 16:55
+categories: sketchnote workshop
+tags: ddd innoQ-workshop kafka
+---
+
+This week we had an internal [innoQ](https://innoq.com) workshop with [Michael Plöd](https://twitter.com/bitboss). I thoroughly enjoyed it and learned a ton.
+The training introduced the main concepts about DDD and we got to practice applying DDD with a case study.
+
+Michael is also currently writing [a book](https://leanpub.com/ddd-by-example), so you should check that out.
+
+Here are my sketchnotes. :)
+
+![DDD Training](/img/2017-08-23-ddd/1.jpg "DDD Training")
+![DDD Training](/img/2017-08-23-ddd/2.jpg "DDD Training")
+![DDD Training](/img/2017-08-23-ddd/3.jpg "DDD Training")
+![DDD Training](/img/2017-08-23-ddd/4.jpg "DDD Training")
