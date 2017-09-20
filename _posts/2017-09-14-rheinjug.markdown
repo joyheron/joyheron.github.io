@@ -1,0 +1,20 @@
+---
+layout: post
+title: "JavaEE"
+post-title: "rheinJUG: Java EE - der Weg in die Cloud"
+date: 2017-09-14 21:30
+categories: sketchnote rheinJUG
+tags: talk
+---
+
+Usually I really enjoy the talks at the [rheinJUG](http://rheinjug.de/). To be honest, I'm not really interested that much in JavaEE and basically the only reason I was there was to help set everything up and help moderate the talk.
+
+I don't want to question the competence of Werner Keil. He has done a lot (I mean _a lot_) for the Java EE world. However, the talk just wasn't very good. It listed out a whole bunch of different JSRs for JavaEE 5, 6, 7, 8, and 9. But there wasn't really any explanation of any terms or any explanation of the JSRs or their implications.
+
+For me, as someone completely outside of JavaEE, I didn't really learn anything and I took away almost nothing from the talk. I was even confused about what JavaEE really is (and I still am a bit to be honest). It seems to me that if you talk about JavaEE, everyone either groans and says its _so_ boring or is a JavaEE fan and is very excited about how great it is without telling me _what_ it is that I should be excited about.
+
+After the talk, I asked some colleages what JavaEE really is (because I was confused and the talk didn't enlighten me). Apparently, JavaEE is a collection of standards that has been agreed upon (in JSRs). So the Servlet interface that Spring builds upon is a part of JavaEE. However, there are also a set of implementations that also use the same standards and these are often also often are referred to as being "Enterprise Java" which adds to the confusion. What I still don't really know is how much JavaEE really impacts me as a developer (I'm thinking not so much since I have successully ignored it for 6 years).
+
+In any case, I think I understand more about JavaEE now than I did before (no thanks to the talk, unfortunately). But at least I got to draw some beans...
+
+![JavaEE](/img/2017-09-14-rheinjug-javaee.jpg "JavaEE")
