@@ -1,0 +1,68 @@
+---
+layout: post
+title: "TopConf Düsseldorf 2017"
+post-title: "TopConf Düsseldorf 2017"
+date: 2017-10-06 18:00
+categories: sketchnote conference
+tags: topconf
+---
+
+This year was the first [TopConf Düsseldorf](https://www.topconf.com/conference/duesseldorf-2017/). My overall impression of the conference was very good. The food was awesome and the conference speakers were all excellent. I'm interested to see how the conference develops in future years.
+
+I also gave a talk at the conference called 'The Enemy of the State'. Here are [my slides](https://speakerdeck.com/joyclark/the-enemy-of-the-state) from that:
+
+<script async class="speakerdeck-embed" data-id="5debc09190f34e15b6d1a69e6454405a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+Here are my sketchnotes from the conference:
+
+"The Silver Bullet Syndrom" by Hadi Hariri
+
+![Topconf Düsseldorf](/img/2017-10-06-topconf/1.jpg "Topconf Düsseldorf")
+
+"Coding a Better World" by Wolf Schlegel
+
+![Topconf Düsseldorf](/img/2017-10-06-topconf/2.jpg "Topconf Düsseldorf")
+
+"Doing Data Science with Clojure: The Ugly, the Sad, the Joyful" by Simon Belak
+
+![Topconf Düsseldorf](/img/2017-10-06-topconf/3.jpg "Topconf Düsseldorf")
+
+"Mindful Communication for Leaders" by Cosima Laube
+
+![Topconf Düsseldorf](/img/2017-10-06-topconf/4.jpg "Topconf Düsseldorf")
+
+"Empowering Web Applications with Speech Recognition" by Mihai Cîrlănaru
+
+![Topconf Düsseldorf](/img/2017-10-06-topconf/5.jpg "Topconf Düsseldorf")
+
+"The Blockchain: What, Why and How" by Benny Michielsen
+
+![Topconf Düsseldorf](/img/2017-10-06-topconf/6.jpg "Topconf Düsseldorf")
+
+"Computational Behavior Modelling for the Internet of Things" by Fahim Kawsar
+
+![Topconf Düsseldorf](/img/2017-10-06-topconf/7.jpg "Topconf Düsseldorf")
+
+"AppSec in a DevOps World" by Peter Chestna
+
+![Topconf Düsseldorf](/img/2017-10-06-topconf/8.jpg "Topconf Düsseldorf")
+
+"Improving Your Architecture One Step at a Time" by Michael Mahlberg
+
+![Topconf Düsseldorf](/img/2017-10-06-topconf/9.jpg "Topconf Düsseldorf")
+
+"A Security Professional's Toolbox: Semi-Automated Pentesting with Open-Source Tools" by Christian Schneider
+
+![Topconf Düsseldorf](/img/2017-10-06-topconf/10.jpg "Topconf Düsseldorf")
+
+"Successful, Accomplished, Depressed" by Dennis Traub
+
+![Topconf Düsseldorf](/img/2017-10-06-topconf/11.jpg "Topconf Düsseldorf")
+
+"From Brownfield to DevOps" by Sven Johann
+
+![Topconf Düsseldorf](/img/2017-10-06-topconf/12.jpg "Topconf Düsseldorf")
+
+"The Java Ecosystem: An Open Source Journey" by Juergen Hoeller
+
+![Topconf Düsseldorf](/img/2017-10-06-topconf/13.jpg "Topconf Düsseldorf")
