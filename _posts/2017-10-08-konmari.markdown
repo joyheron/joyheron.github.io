@@ -36,6 +36,8 @@ I had to return the book to my mother, so before I gave it back to her I make so
 
 ![KonMari](/img/2017-10-08-konmari/8.jpg "KonMari")
 
+In case you are interested in a version that works offline, I converted these to a [pdf](/downloads/konmari-notes.pdf) which you could download. The content, as with all of my sketchnotes, does not belong to me but rather to the author, Marie Kondo.
+
 ### My Progress
 
 I've been able to apply the KonMari method to three categories at this point: Clothes, Electronics, and Books.
