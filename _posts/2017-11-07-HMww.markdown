@@ -1,0 +1,12 @@
+---
+layout: post
+title: "HMww Podcast"
+post-title: "Guest on Herr Mies will's wissen (DE)"
+date: 2017-11-07 17:00
+categories: podcast
+tags: podcast HMww
+---
+
+I had a lot of fun talking with [Daniel Mies](https://twitter.com/danielmies) on his podcast, HMww. The topic was Sketchnotes, and the podcast is in German. If you are interested, check it out!
+
+If you are interested in listening to the episode view the episode [here](https://mies.me/2017/11/08/hmww11-sketchnotes-mit-joy-clark/) or on [iTunes](https://itunes.apple.com/us/podcast/herr-mies-wills-wissen/id1257454170?mt=2).
