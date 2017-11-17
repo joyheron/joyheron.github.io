@@ -1,0 +1,66 @@
+---
+layout: post
+title: "GOTO Berlin 2017"
+post-title: "GOTO Berlin 2017"
+date: 2017-11-17 19:30
+categories: sketchnote conference
+tags: goto gotober
+---
+
+This year was the first time I have been able to go to the [GOTO Conference in Berlin](https://gotober.com/). I really have only positive things to say about my experience. The organization was superb, the food was delicious, and the speakers and talks were absolutely amazing. I was particularly impressed with the Keynote talks which really introduced me to fields that I'd never even considered before: travelling to Mars, how mathematics can be used to analyze human behavior, autonomous drone systems, and the case for why we really need encryption in the age of eavesdropping. Very inspiring!
+
+The conference kicked off by travelling to Mars.
+
+Dr. Anita Sengupta gave a very informative talk about all of the aspects of the Mars exploration missions and what we can expect in the future.
+
+![GOTO Berlin](/img/2017-11-17-gotober/01.jpg "GOTO Berlin")
+
+I then continued my day by listening to the "Connected World" track (where I would stay for the rest of the day). Michael Fait kicked off the track with a talk about smart ecosystems.
+
+![GOTO Berlin](/img/2017-11-17-gotober/02.jpg "GOTO Berlin")
+
+Ruben van Vreeland then went on to give a very interesting talk about hacking IoT devices using the vulnerabilities from the OWASP Top 10. I always love security talks!
+
+![GOTO Berlin](/img/2017-11-17-gotober/03.jpg "GOTO Berlin")
+
+In the afternoon, I was able to stop in on the HEALTH++ talk from Karen Otte who was talking about the future of medicine. I was a bit late for the talk (recording a podcast), so I missed the start, but I found the content to be very interesting. She wrapped up discussing a lot of the problems that the health field will face. I couldn't write all of them down because my sketchnote had run out of space at that point.
+
+![GOTO Berlin](/img/2017-11-17-gotober/04.jpg "GOTO Berlin")
+
+I was less enthused about the talk given by Sandra Kriemann and Marc Plogas. Not that there was anything lacking in their presentation style, but I am personally not involved with either virtual reality or augmented reality and I really went to the talk to see if I could understand what "mixed reality" really is. I supposed I have some idea now, but I still don't really understand what the difference between this "mixed reality" and "virtual reality" is. Of course, that was not really their goal in the talk (they were there promoting the Hololens and the Microsoft software suite for developing "mixed reality"), and I kind of knew that going in.
+
+![GOTO Berlin](/img/2017-11-17-gotober/05.jpg "GOTO Berlin")
+
+The first day wrapped up with a keynote from Hannah Fry, a mathematician, who gave a talk about how we can use math to analyze human behavior. The talk was absolutely AMAZING. Look it up online if you can! It was hilarious and I learned a lot as well.
+
+![GOTO Berlin](/img/2017-11-17-gotober/06.jpg "GOTO Berlin")
+
+Raffaello D'Andrea started the second day out with a keynote about autonomous drones. I was seriously blown away with the talk because I had no idea that it was possible to develop technology like the one he was showing us. You might get _some_ idea from my sketchnote, but you might have to check out the talk online to really get an idea about it.
+
+![GOTO Berlin](/img/2017-11-17-gotober/07.jpg "GOTO Berlin")
+
+My first talk of the day was from Dr. Richard Clayton. It gave an overview of the common types of cybercrime and how you can protect against them. The talk was very well given. I did recognize a lot of the things he was talking about, which makes me happy. I think the world would be a better place if everybody knew all of the things that he was talking about.
+
+![GOTO Berlin](/img/2017-11-17-gotober/08.jpg "GOTO Berlin")
+
+Vaughn Vernon then gave an excellent talk about modelling uncertainty using domain driven design. Everything today has to deal with concurrency and asynchrony and it's a real problem that we have to deal with in everyday life. I really liked the ideas he presented and the presentation was very well done.
+
+![GOTO Berlin](/img/2017-11-17-gotober/09.jpg "GOTO Berlin")
+
+I liked Michael Feather's talk about unconditional code. Functional programming for the win! I didn't like the people who kept going in and out of the room, but that certainly was neither the speaker's nor the conference's fault.
+
+![GOTO Berlin](/img/2017-11-17-gotober/10.jpg "GOTO Berlin")
+
+I found the talk _Agile Revisited_ by Dan North to be absolutely inspired. He revisited the original Agile Manifesto, discussing what software engineering was like at that time and why it was like that. Then he went into how it has evolved over the years and what it will be like in the future. He also did a bit of Scrum bashing which was very entertaining because there were some Scrum trainers in the audience who got in a bit of a dialog with him.
+
+![GOTO Berlin](/img/2017-11-17-gotober/11.jpg "GOTO Berlin")
+
+My last talk before the keynote was by Gregor Hohpe on enterprise architecture. He outlined eight points that can act as a guideline for anyone who wants to become an enterprise architect. I personally don't, so the points aren't currently applicable for me, but I did enjoy seeing the industry from the perspective of a whole corporation and imagining what it would be like to be in an enterprise architect role.
+
+![GOTO Berlin](/img/2017-11-17-gotober/12.jpg "GOTO Berlin")
+
+Susan Landau finished a great conference with a keynote about the implications of security and, in particular, encryption. She reviewed a bit of the history of the crypto wars and then explained in detail what kinds of encryption are currently available (end-to-end encryption and securing phones). I found her argument that civil society organizations (which are crucial to democracy) depend on the ubiquitous security that can be bought off the shelf to be very convincing.
+
+![GOTO Berlin](/img/2017-11-17-gotober/13.jpg "GOTO Berlin")
+
+All in all, a great conference!
