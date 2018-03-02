@@ -1,0 +1,50 @@
+---
+layout: post
+title: ":clojureD"
+post-title: ":clojureD: Clojure Conference in Germany"
+date: 2018-02-24 20:00
+categories: sketchnote conference
+tags: clojure
+---
+
+Clojure is not only my favorite programming language, but I also really enjoy the Clojure community. I feel this is especially the case in Berlin, where the :clojureD takes place, since the great work that the ClojureBridge has been doing means that there is a lot more diversity at the conference than at other tech conferences I am used to.
+
+I had the privilege again this year to introduce some of the talks for one of the tracks, so I also got to enjoy the company of the other organizers of the conference. The whole day was a bit crazy, but I did manage to sketchnote the talks I listened to, so here they are!
+
+The first talk of the day was about teaching Clojure by Michael Sperbsen. I liked the point that the things that make Clojure great for expert users (e.g. simplicity) are actually beside the point when it comes to teaching programming to someone who is a real beginner.
+
+![:clojureD 2018](/img/2018-02-24-clojureD/1.jpg ":clojureD 2018")
+
+The next talk was from Dave Liepmann, Matt Huebert, and Jack Rusher who introduced Maria, which is an interactive coding environment for Clojure. It was created for beginners in mind, but it it also pretty cool for people who have some experience with Clojure. When the conference was over, I went back to the hotel and played around with it and can confirm that the idea is pretty great. You can to go to [https://maria.cloud](https://maria.cloud) and play around with it, and if you want to save your snippet, you can connect your GitHub account and save it as a gist.
+
+![:clojureD 2018](/img/2018-02-24-clojureD/2.jpg ":clojureD 2018")
+
+In the next talk, Alexandrer Mann shared his experience with solving problems with logging in Clojure at CircleCI. I didn't know that there were so many different loggers used within a single Clojure project!
+
+![:clojureD 2018](/img/2018-02-24-clojureD/3.jpg ":clojureD 2018")
+
+In the next talk, my colleague Jan Stępień talked about structuring Clojure applications. Since every Clojure application needs to decide on an architecture, I think Jan's suggestions make a lot of sense!
+
+![:clojureD 2018](/img/2018-02-24-clojureD/4.jpg ":clojureD 2018")
+
+The next talk I listened to was by Kenneth Kalmer about re-frame and building single page apps using ClojureScript. I don't actually build SPAs (feels too much like rebuilding a browser to me), but I think Kenneth did a good job of introducing re-frame and explaining how to use it. If I ever want to build an SPA, I'll definitely give re-frame a look!
+
+![:clojureD 2018](/img/2018-02-24-clojureD/5.jpg ":clojureD 2018")
+
+The next talk by Dom Kiva-Meyer about GraphQL was definitely amusing, since it compared GraphQL to a Japanese toilet (and really stuck by the metaphor throughout the presentation). I listened to the talk to try to understand the hype behind GraphQL (even though I am not currently using it). I think I did get an overview of the topic, but I was a bit bothered with the REST bashing that took place in the talk (REST was compared to an outhouse in the overarching metaphor). This is because I love REST (I recognize my biases), but I also didn't recognize the listed problems with REST in my current projects. This makes me wonder what kind of REST everybody else is using. Of course, I believe the background of the talk was also the assumption that everybody is building SPAs (which I am not doing), and I can see where GraphQL could be very useful for someone building an SPA.
+
+![:clojureD 2018](/img/2018-02-24-clojureD/6.jpg ":clojureD 2018")
+
+I really enjoyed the next talk by Lisa Passing about exploring interactive art in Clojure. It was really fun to listen to and watch, and I liked the examples of the bubbly art that you can create. Also, I learned something about probability functions and how they can be used to create 'randomness' that seems organic to our eyes.
+
+![:clojureD 2018](/img/2018-02-24-clojureD/7.jpg ":clojureD 2018")
+
+The next talk was about functional calisthenics by Jorge Gueorguiev Garcia. I think the rules that he presented to practice functional programming are very interesting, although I think the one about one argument functions probably makes more sense in the context of a functional programming language like Haskell, where currying is more commonly used. Still, I think it would be interesting to try to program a kata using the rules that he listed.
+
+![:clojureD 2018](/img/2018-02-24-clojureD/8.jpg ":clojureD 2018")
+
+The :clojureD started winding down with the comedic defjoke by Ray McDermott. Then we had the lightning talks. I definitely want to try out the Omnia REPL which was presented by Robert Avram. Saskia Lindner showed a neat tool for debugging re-frame. Juan Facorro made an argument for why we should try out Clojure on the Erlang VM. And Carolyn Stansky gave a great lightning talk about self-care in tech which I absolutely loved, because I have been trying to be more deliberate with taking care of my health.
+
+![:clojureD 2018](/img/2018-02-24-clojureD/9.jpg ":clojureD 2018")
+
+All in all a great conference!!
