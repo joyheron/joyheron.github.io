@@ -1,0 +1,44 @@
+---
+layout: post
+title: "BOB Konferenz"
+post-title: "BOB Konferenz: FP Conference in Berlin"
+date: 2018-02-23 20:00
+categories: sketchnote conference
+tags: fp
+---
+
+This year was my first year at the [BOB Konf](http://bobkonf.de/) in Berlin. All of the talks were something to do with FP, and it was really interesting to see the broadness of the spectrum of the talks. Here are my sketchnotes.
+
+The first talk of the day at the BobKonf was about by Leif Andersen, who spoke about writing DSLs in Racket in order to be able to edit video. I enjoyed the matching parentheses and each introduction of yet another DSL.
+
+![BOB Konf 2018](/img/2018-02-23-bobkonf/1.jpg "BOB Konf 2018")
+
+The next talk was by Stefan Andjelkovic about testing monadic programs using Quick Check and state machine based models. I thought the example was interesting and was reminded a lot about my university days doing formal methods (he even mentioned Event-B, which is the specification language I worked with for my Master's thesis!).
+
+![BOB Konf 2018](/img/2018-02-23-bobkonf/2.jpg "BOB Konf 2018")
+
+I really like the next sketchnote that I was able to make. Michael Wiedeking gave a talk about data structures and explained how to create immutable linked lists, trees, arrays, and queues without sacrificing too much performance. Structural sharing isn't new for me, but I liked the reminder and I really liked his explanation of how to create 'Arrays' (I think these are similar to Clojure's Vectors) and queues.
+
+![BOB Konf 2018](/img/2018-02-23-bobkonf/3.jpg "BOB Konf 2018")
+
+The next talk was given by Maxim Minin about Fix Engines written in Erlang. I learned a little bit about what FIX (financial information eXchange protocol) is and the technology that is used in the stock market.
+
+![BOB Konf 2018](/img/2018-02-23-bobkonf/4.jpg "BOB Konf 2018")
+
+I don't know too much about hardware, so some parts of the talk about GRiSP bare metal functional programming by Nadezda Zryanina went completely over my head. It was really cool to see live coding and the demo of the cute little robot. And it's pretty cool that you can recompile the program and send it directly to the robot without having to hook it back up to the computer.
+
+![BOB Konf 2018](/img/2018-02-23-bobkonf/5.jpg "BOB Konf 2018")
+
+The next talk by Nikita Volkov was about New Hasql, which is a native Haskell Postgres driver that is faster than C. I thought it was really interesting to see how functional programming can be used in order to implement something like a database driver. Also, even though I don't have a firm grasp on category theory (it seems to slip into my brain and then right back out), I think I understand a little more after this talks, so I will count that as a win!
+
+![BOB Konf 2018](/img/2018-02-23-bobkonf/6.jpg "BOB Konf 2018")
+
+The next talk was by Oskar Wickström and was about using finite state machines in programs to ensure that a program is correctly executed. This talk also reminded me of my time doing formal methods (I still like finite state machines!) and I thought the ideas behind the talk were very interesting. Also (as with the previous talk), I think I might have learned at least a little bit about category theory.
+
+![BOB Konf 2018](/img/2018-02-23-bobkonf/7.jpg "BOB Konf 2018")
+
+The final talk of the day was by Hannes Mehnert, and I thought it was really interesting to see formal methods used in the context of modelling network protocols. I'm glad that someone is taking the time to do it, since the whole internet depends on them working!
+
+![BOB Konf 2018](/img/2018-02-23-bobkonf/8.jpg "BOB Konf 2018")
+
+Since the BOB Konf has too tracks, my sketchnotes and comments are only on half of the conference. Luckily, the videos for the conference are already online (that was fast!), so if you are interested, you can check them out [here](http://bobkonf.de/2018/en/program.html).
