@@ -4,17 +4,19 @@
     {% include head.html %}
 
     <body id="page-top" class="index">
-
         {% include nav.html %}
 
         {% include header.html %}
 
-        {{ content }}
-
-        {% include footer.html %}
-
-        {% include assets.html %}
-
+        <main class="container">
+            <h1>{% if page.title %}{{ page.title }}{% else %}Joy Heron{% endif %}</h1>
+            {% if page.title == null %}<span class="skills">Software Developer</span>{% endif %}
+    
+            {{ content }}
+    
+            {% include footer.html %}
+    
+            {% include assets.html %}
+        </main>
     </body>
-
 </html>
