@@ -1,15 +1,8 @@
 <!-- Header -->
 <header>
     <div class="header container">
-    <nav class="navbar navbar-default">
-        {% for page in site.pages %}
-        {% if page.title %}
-            <a class="navbar--page" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endif %}
-        {% endfor %}
-    </nav>
     
-    <img class="img-responsive profile-image" src="/img/profile-medium.jpg" alt="">
+    <img class="img-responsive" src="/img/profile-medium.jpg" alt="">
     <!-- <ul class="social-links">
             <li>
                 <a href="https://twitter.com/iamjoyclark"

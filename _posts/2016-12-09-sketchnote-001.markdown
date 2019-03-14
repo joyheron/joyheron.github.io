@@ -4,6 +4,7 @@ title: "My First Sketchnote"
 post-title: "The Terminal Workshop 2016"
 date: 2016-12-09 18:00
 categories: sketchnote
+thumbnail: /img/thumbnail/2016-12-09-terminal-1.jpg
 ---
 
 My company [innoQ](https://www.innoq.com/) had an awesome workshop about

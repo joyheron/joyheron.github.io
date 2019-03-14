@@ -1,4 +1,10 @@
-<nav class="navbar navbar-default">
+<nav class="navbar">
+    <a class="navbar--page" href="/">
+        <i class="fa fa-heart"></i>
+    </a>
+    {% if page.title != null %}
+        <a class="navbar--page" href="/">Joy Heron</a>
+    {% endif %}
     {% for page in site.pages %}
     {% if page.title %}
         <a class="navbar--page" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>

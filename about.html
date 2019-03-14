@@ -1,19 +1,75 @@
 ---
-layout: default
-title: About Me
+layout: about
+title: About
 ---
 
-<!-- Experience Section -->
-<section id="experience">
-    <div class="container">
-        <div class="text-center">
-            <h2>What have I done?</h2>
-            <hr class="star-primary">
+<section class="bg-pink">
+    <div class="container two-column-flex">
+        <img class="img-responsive profile-image" src="/img/profile-medium.jpg" alt="">
+        <div>
+            <h1>About Me</h1>
+            <p>
+                My name is Joy Heron, and I...
+            </p>
+            <ul class="list">
+                <li>develop software</li>
+                <li>love functional programming</li>
+                <li>care about UX and good design</li>
+                <li>find web applications facinating</li>
+            </ul>
+
+            <ul class="social-links">
+                <li>
+                    <a href="https://twitter.com/iamjoyheron"
+                        class="social-links__link"><i
+                            class="fa fa-lg fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/joyheron"
+                        class="social-links__link"><i
+                            class="fa fa-lg fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/joy-heron-49640792/"
+                        class="social-links__link"><i
+                            class="fa fa-lg fa-linkedin"></i></a>
+                </li>
+            </ul>
         </div>
+    </div>
+</section>
+
+<section id="atAGlance">
+    <div class="container">
+        <h2 class="section-title">My skills at a Glance</h2>
+        <dl>
+            <dt>Programming Languages</dt>
+            <dd>Java, JavaScript, Clojure, Groovy, Prolog, Python, Ruby</dd>
+            <dt>Web technologies</dt>
+            <dd>
+                CSS, HTML, HTTP, REST, JavaScript, ClojureScript, Plotly, jQuery,
+                DataTables, mustache, Thymeleaf, Spring Boot
+            </dd>
+            <dt>Databases</dt>
+            <dd>Neo4J, SQL, Cassandra, Solr</dd>
+            <dt>Testing</dt>
+            <dd>JUnit, Cypress, Selenium, Spock</dd>
+            <dt>Software Development Tools</dt>
+            <dd>Git, IntelliJ, Eclipse, Emacs, Maven, Gradle, JIRA, Scrum, YourKit, Jenkins, GitLab CI</dd>
+            <dt>Other</dt>
+            <dd>LaTeX, Mac OS, Linux, bash</dd>
+        </dl>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="bg-gray">
+    <div class="container">
+        <h2 class="section-title">What have I done?</h2>
 
         <h3>
             Software Consultant at <a href="https://www.innoq.com/en/">INNOQ</a>
-            <div>(2016 - present)</div>
+            <div class="text-gray">2016 - present</div>
         </h3>
         <p>
             At <a href="https://www.innoq.com/en/">INNOQ</a>, I work closely together
@@ -23,9 +79,10 @@ title: About Me
             The most important question to me is not <b>how</b> to solve a specific
             problem, but making sure that we are solving the <b>right problem.</b>
         </p>
-        <p>
-            
-        </p>
+
+        <h3>
+            Research Assistant
+        </h3>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <p>During my studies, I had worked with the
@@ -94,39 +151,6 @@ title: About Me
                     <li><p>Writing a Clojure REPL to control a
                         <a href="https://twitter.com/iamjoyclark/status/751440306906734595">
                             cute Robot</a> over TCP.</p></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Skills Section -->
-<section id="skills">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>What can I do?</h2>
-                <hr class="star-primary">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <ul>
-                    <li><p><span class="course">Programming Languages:</span> Java, Clojure,
-                        Groovy, Prolog, Python</p></li>
-                    <li><p><span class="course">Web technologies:</span> Spring Boot,
-                        JavaScript, ClojureScript, HTML, CSS, D3, JQuery, mustache,
-                        Thymeleaf</p></li>
-                    <li><p><span class="course">Databases:</span> Neo4J, SQL, Cassandra</p>
-                    </li>
-                    <li><p><span class="course">Testing:</span> JUnit, Selenium, Spock</p>
-                    </li>
-                    <li><p><span class="course">Software Development Tools:</span> Eclipse,
-                        IntelliJ, Maven, Gradle, Git, JIRA, Scrum, YourKit, EclEmma, Jenkins
-                    </p>
-                    </li>
-                    <li><p><span class="course">Other:</span> LaTeX, Mac OS, Linux, bash</p>
-                    </li>
                 </ul>
             </div>
         </div>

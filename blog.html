@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog
-page-title: You should look at...
+page-title: Sketchnotes & More
 ---
 
 <ul>
@@ -13,6 +13,9 @@ page-title: You should look at...
         <div class="post-meta-info">
             Posted on: {{ post.date | date: '%B %d, %Y' }}
         </div>
+        {% if post.thumbnail != null %}
+            <img src="{{ post.thumbnail }}" alt="{{ post.post-title }} Thumbnail" />
+        {% endif %}
     </li>
     {% endfor %}
 </ul>
