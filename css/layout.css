@@ -232,13 +232,8 @@ section {
   justify-content: center;
   margin-top: var(--space-lg);
 }
-
 .social-links__link {
   padding-right: var(--space-md);
-  color: var(--pink-600);
-}
-.social-links__link:hover {
-  color: var(--blue-600);
 }
 
 .text-colored {
