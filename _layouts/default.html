@@ -6,14 +6,22 @@
     <body id="page-top" class="default-layout">
         {% include nav.html %}
 
-        <main class="container">
-            <span>{{ page.title }}</span>
+        <main>
+
+            <div class="bg-pink">
+                <div class="container">
+                    <h1>{{ page.title }}</h1>
+                </div>
+            </div>
     
-            {{ content }}
+            <div class="container">
+                {{ content }}
+            </div>
     
             {% include footer.html %}
     
             {% include assets.html %}
+            {% include icons.html %}
         </main>
     </body>
 </html>
