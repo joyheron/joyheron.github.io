@@ -190,6 +190,10 @@ section {
 
 .page-nav__link {
   color: var(--gray-400);
+  margin-right: var(--space-xs);
+}
+.page-nav__link:last-child {
+  margin-right: 0;
 }
 
 .image-container {
@@ -286,7 +290,10 @@ dd + dt {
 .icon-link {
   display: flex;
   align-items: center;
-  grid-gap: var(--space-xs);
+}
+
+.icon-link .icon {
+  margin-right: var(--space-xs);
 }
 
 .talks {
@@ -424,14 +431,16 @@ dd + dt {
   .two-column-flex {
     display: flex;
     align-items: flex-start;
-    grid-gap: var(--space-lg);
+  }
+  .two-column-flex__second-column {
+    margin-left: var(--space-lg);
   }
 }
 
 /* Medium Size Pages */
 @media(max-width: 786px) {
   .image-container {
-    justify-content: end;
+    justify-content: flex-end;
     margin-right: var(--space-lg);
     margin-top: var(--space-xxs);
   }
