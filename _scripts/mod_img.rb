@@ -2,7 +2,7 @@ require 'find'
 require 'fileutils'
 
 def image?(file)
-	file.end_with?(".jpg") || file.end_with?(".jpeg")
+	file.end_with?(".jpg") || file.end_with?(".jpeg") || file.end_with?(".png")
 end
 
 def convert_image(original, out, image_opts)
