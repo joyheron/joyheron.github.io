@@ -5,12 +5,12 @@
     <body class="landing-page-layout">
         <div class="landing-page-grid">
             <nav class="navbar navbar--landing">
-                <a class="navbar--page" href="/">
+                <a class="navbar__page" href="/">
                     <i class="fa fa-heart"></i>
                 </a>
                 {% for page in site.pages %}
                 {% if page.title %}
-                    <a class="navbar--page" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                    <a class="navbar__page" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                 {% endif %}
                 {% endfor %}
             </nav>
