@@ -5,6 +5,7 @@ post-title: "Guest on the Cognicast"
 date: 2017-10-04 21:00
 categories: podcast
 tags: podcast cognicast
+thumbnail: https://static1.squarespace.com/static/5372821be4b0aefc6719057e/t/59d500ded7bdce766327df60/1507131657751/General+purpose+cover+art.jpeg?format=750w
 ---
 
 I had the great honor to be a guest on the Cognicast! [Carin Meier](https://twitter.com/gigasquid) was the host for the episode and we got to talk about a few of my favorite things: my brief foray into formal methods, Clojure, web security and web applications. Many many thanks to Cognitect for having me on the show! 

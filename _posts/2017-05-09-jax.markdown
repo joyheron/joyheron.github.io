@@ -5,6 +5,7 @@ post-title: "JAX 2017"
 date: 2017-05-11 18:00
 categories: sketchnote conference
 tags: jax
+thumbnail: /img/thumbnail/2017-05-09-jax/5.jpg
 ---
 
 This year was the first year I've been able to go to the [JAX](https://jax.de/). I went and hung out at our [innoQ](https://innoq.com) table and took the opportunity to go see a bunch of talks and make a lot of sketchnotes.

@@ -4,6 +4,7 @@ title: "innoQ Event"
 post-title: "2016 innoQ Strategy Event in Arosa"
 date: 2016-12-15 14:00
 categories: sketchnote
+thumbnail: /img/thumbnail/2016-12-15-innoQ-event.jpg
 ---
 
 One of the main perks of working for my company [innoQ](https://www.innoq.com/) is that we get to go to

@@ -5,6 +5,7 @@ post-title: ":clojureD: Clojure Conference in Germany"
 date: 2018-02-24 20:00
 categories: sketchnote conference
 tags: clojure
+thumbnail: /img/thumbnail/2018-02-24-clojureD/2.jpg
 ---
 
 Clojure is not only my favorite programming language, but I also really enjoy the Clojure community. I feel this is especially the case in Berlin, where the :clojureD takes place, since the great work that the ClojureBridge has been doing means that there is a lot more diversity at the conference than at other tech conferences I am used to.

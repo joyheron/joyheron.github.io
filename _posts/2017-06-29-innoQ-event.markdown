@@ -5,6 +5,7 @@ post-title: "innoQ Event in Düsseldorf"
 date: 2017-06-30 18:00
 categories: sketchnote innoQ-event
 tags: innoQ-event
+thumbnail: /img/thumbnail/2017-06-29-innoQ-event/6.jpg
 ---
 
 It was yet another great [innoQ](https://innoq.com) event! This time, we had a lot of short talks (15 and 10 minutes) and lightning talks (5 minutes). I did a lightning talk about english commas! Oxford Comma!!! The short talks were a great opportunity to practice sketchnoting!

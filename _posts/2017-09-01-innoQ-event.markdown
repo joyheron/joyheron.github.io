@@ -5,6 +5,7 @@ post-title: "innoQ Event in Edinburgh"
 date: 2017-09-01 18:00
 categories: sketchnote innoQ-event
 tags: innoQ-event
+thumbnail: /img/thumbnail/2017-09-01-open-space/2.jpg
 ---
 
 Have I mentioned that I love [Open Space](https://en.wikipedia.org/wiki/Open_Space_Technology)? Maybe I have, maybe I haven't. But the truth of the matter is, I really do love open space.

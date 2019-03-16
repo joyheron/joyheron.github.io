@@ -5,6 +5,7 @@ post-title: "rheinJUG: Project Panama"
 date: 2017-04-20 21:00
 categories: sketchnote rheinJUG
 tags: talk
+thumbnail: /img/thumbnail/2017-04-20-rheinjug/1.jpg
 ---
 
 I'm one of the organizers for the [rheinJUG](http://rheinjug.de/), and I think it's a great way to get an overview of a topic without having to look into it too deeply.

@@ -5,6 +5,7 @@ post-title: "innoQ Open Space Event"
 date: 2017-03-31 18:00
 categories: sketchnote innoQ-event
 tags: innoQ-event open-space
+thumbnail: /img/thumbnail/2017-03-30-innoQ-event/4.jpg
 ---
 
 We had our first internally moderated [innoQ](https://innoq.com) Open Space Event in Köln. I helped with the moderation during the event, which I thoroughly enjoyed. I did wish I could participate more in the Event itself, so in the future we'll have to see how that works out.

@@ -4,6 +4,7 @@ title: "ClojureScript & om-next"
 post-title: "ClojureScript & om-next"
 date: 2017-02-02 21:00
 categories: sketchnote
+thumbnail: /img/thumbnail/2017-02-02-clojure-script.jpg
 ---
 
 As a Clojure enthusiast who lives in Düsseldorf, I am of course a frequent visitor at the [Düsseldorf Clojure Meetup](https://www.meetup.com/de-DE/Dusseldorf-Clojure-Meetup/).

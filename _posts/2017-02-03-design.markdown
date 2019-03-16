@@ -4,6 +4,7 @@ title: "Design: The Good, The Bad, The Effective"
 post-title: "Design: The Good, The Bad, The Effective"
 date: 2017-02-03 13:45
 categories: sketchnote ddd
+thumbnail: /img/thumbnail/2017-02-03-design.jpg
 ---
 
 My [recent post](http://joyclark.org/sketchnote/ddd/2017/01/15/10-problems.html) about common problems in software project has gotten a lot of positive feedback.

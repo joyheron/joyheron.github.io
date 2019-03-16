@@ -5,6 +5,7 @@ post-title: ":clojureD: Awesome Clojure Conference in Germany"
 date: 2017-02-25 18:00
 categories: sketchnote conference
 tags: clojure
+thumbnail: /img/thumbnail/2017-02-25-clojureD/7.jpg
 ---
 
 I'm never shy about admitting that Clojure is my absolute favorite language. I absolutely loved visiting the [:clojureD conference](http://clojured.de) in Berlin. It was my very first (and will definitely not be my very last) Clojure conference. It was also my first experience getting to know the larger Clojure community in Germany and Europe. I got to help with moderating the event, which was a lot of fun, and I got an opportunity to do a lot of sketchnotes. :)

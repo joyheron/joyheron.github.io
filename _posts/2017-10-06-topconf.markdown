@@ -5,6 +5,7 @@ post-title: "TopConf Düsseldorf 2017"
 date: 2017-10-06 18:00
 categories: sketchnote conference
 tags: topconf
+thumbnail: /img/thumbnail/2017-10-06-topconf/4.jpg
 ---
 
 This year was the first [TopConf Düsseldorf](https://www.topconf.com/conference/duesseldorf-2017/). My overall impression of the conference was very good. The food was awesome and the conference speakers were all excellent. I'm interested to see how the conference develops in future years.

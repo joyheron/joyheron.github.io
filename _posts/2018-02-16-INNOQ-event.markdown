@@ -5,6 +5,7 @@ post-title: "INNOQ Event in Düsseldorf"
 date: 2018-02-16 18:00
 categories: sketchnote INNOQ-event
 tags: INNOQ-event
+thumbnail: /img/thumbnail/2018-02-14-INNOQ-event/1.jpg
 ---
 
 I've posted sketchnotes previously about [INNOQ](https://innoq.com) events and how much I enjoy them. This event was a pure 'Vortragsevent' (i.e. 'Presentation Event'), which meant that I got to listen to great talks from my colleagues for two days. The focus was on short talks (there were a few 30 minute presentations, mainly 15 minute presentations, and some 5 minute lighting talks). I'm a big fan of the concise format, because I think when you are limited to a shorter period of time, the quality of the presentation is better.

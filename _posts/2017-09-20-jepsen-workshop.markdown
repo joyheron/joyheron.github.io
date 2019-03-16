@@ -5,6 +5,7 @@ post-title: "Jepsen Workshop with Kyle Kingsbury"
 date: 2017-09-21 19:30
 categories: sketchnote workshop
 tags: innoQ-workshop jepsen clojure
+thumbnail: /img/thumbnail/2017-09-20-jepsen/1.jpg
 ---
 
 This week we had a great [Jepsen](http://jepsen.io/) workshop with [Kyle Kingsbury](https://aphyr.com/about). I really enjoyed my time and I learned a lot about Jepsen, how to test distributed key/value stores, and cats. :)

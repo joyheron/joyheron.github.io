@@ -5,6 +5,7 @@ post-title: "innoQ Workshop: Bikablo"
 date: 2017-07-05 18:00
 categories: sketchnote workshop
 tags: innoQ-workshop
+thumbnail: /img/thumbnail/2017-07-04-bikablo/4.jpg
 ---
 
 Easily my favorite workshop this year (although I really do love [innoQ](https://innoq.com) workshops)! We can draw! Our trainer was [Desiree van Dijk](https://twitter.com/desireevdijk) from [Bikablo](http://bikablo.kommunikationslotsen.de/). If you ever get to do a training from them, take advantage of it!

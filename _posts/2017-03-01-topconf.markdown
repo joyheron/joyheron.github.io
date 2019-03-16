@@ -5,6 +5,7 @@ post-title: "TopConf Linz 2017"
 date: 2017-03-02 18:00
 categories: sketchnote conference
 tags: topconf
+thumbnail: /img/thumbnail/2017-03-01-topconf-linz/2.jpg
 ---
 
 I had the opportunity to go to the [TopConf Linz](https://www.topconf.com/conference/linz-2017) in order to talk about Clojure Web Applications (one of my all-time favorite topics.) It was a lot of fun and I enjoyed meeting some new people and having interesting discussions. It might have been nice if there were more girls there, but I'm used to that particular problem...

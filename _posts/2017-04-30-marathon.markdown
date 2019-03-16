@@ -5,6 +5,7 @@ post-title: "Düsseldorf Marathon"
 date: 2017-04-30 16:00
 categories: blog
 tags: marathon
+thumbnail: /img/thumbnail/2017-04-30-marathon.jpg
 ---
 
 I did it!

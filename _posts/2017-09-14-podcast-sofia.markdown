@@ -5,6 +5,7 @@ post-title: "CaSE Podcast with Sofia Vaughn-Jones about Scala"
 date: 2017-09-14 18:00
 categories: podcast sketchnote
 tags: scala casepodcast
+thumbnail: http://images.dohmen.io/case.png
 ---
 
 I interviewed Sofia Vaughn-Jones (who was Sofia Cole at the time I interviewed her but got married in the 3 weeks between the interview and when it was published). We talked about Scala, how to learn Scala and a little bit about monads.
