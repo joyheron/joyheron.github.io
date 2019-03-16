@@ -5,6 +5,7 @@ post-title: "EuroClojure 2017"
 date: 2017-07-22 17:00
 categories: sketchnote conference
 tags: clojure euroclojure
+thumbnail: /img/thumbnail/2017-07-20-euroclojure/2.jpg
 ---
 
 Wow. The EuroClojure was just great! I love hanging out with other Clojure enthusiast. I was also thrilled to find some fellow Clojure sketchnoters: [@malweene](https://twitter.com/malweene), [@daiyitastic](https://twitter.com/daiyitastic), and [@MarianaBocoi](https://twitter.com/MarianaBocoi) (who caught the sketchnoting bug during the conference!).

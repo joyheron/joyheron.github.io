@@ -5,6 +5,7 @@ post-title: "Alex Miller on Clojure"
 date: 2017-08-03 16:55
 categories: podcast sketchnote
 tags: clojure casepodcast
+thumbnail: http://images.dohmen.io/case.png
 ---
 
 At the [EuroClojure](http://2017.euroclojure.org/) I had the great privilege to interview Alex Miller about Clojure for the [CaSE Podcast](http://www.case-podcast.org/8-clojure-with-alex-miller).

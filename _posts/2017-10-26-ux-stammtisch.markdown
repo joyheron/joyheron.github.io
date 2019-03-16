@@ -5,6 +5,7 @@ post-title: "innoQ UX-Stammtisch: How to Build Web Forms"
 date: 2017-10-26 20:25
 categories: sketchnote
 tags: innoQ-workshop ux stammtisch
+thumbnail: /img/thumbnail/2017-10-26-ux-stammtisch/1.jpg
 ---
 
 Some of my [innoQ](https://innoq.com) colleagues had the idea to start a Stammtisch (German for 'regular table') about UX topics which would have a kind of 'meetup' flavor. Today was the first day that I was able to participate, and I was very glad that I could.

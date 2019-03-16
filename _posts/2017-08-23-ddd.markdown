@@ -5,6 +5,7 @@ post-title: "DDD Training with Michael Plöd"
 date: 2017-08-23 16:55
 categories: sketchnote workshop
 tags: ddd innoQ-workshop kafka
+thumbnail: /img/thumbnail/2017-08-23-ddd/1.jpg
 ---
 
 This week we had an internal [innoQ](https://innoq.com) workshop with [Michael Plöd](https://twitter.com/bitboss). I thoroughly enjoyed it and learned a ton.

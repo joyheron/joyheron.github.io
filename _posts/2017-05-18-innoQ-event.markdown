@@ -5,6 +5,7 @@ post-title: "innoQ Event in Düsseldorf"
 date: 2017-05-19 18:00
 categories: sketchnote innoQ-event
 tags: innoQ-event
+thumbnail: /img/thumbnail/2017-05-18-innoQ-event/2.jpg
 ---
 
 I do love our [innoQ](https://innoq.com) events! This event in Düsseldorf was more of a 'talk' event where lots of colleagues gave a lot of interesting events. We also had quite a few workshops in the afternoon, and I thoroughly enjoyed myself.

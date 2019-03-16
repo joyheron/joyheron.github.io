@@ -5,6 +5,7 @@ post-title: "rheinJUG: Strategic Design for Microservices"
 date: 2017-07-13 21:00
 categories: sketchnote rheinJUG
 tags: talk
+thumbnail: /img/thumbnail/2017-07-13-rheinjug/1.jpg
 ---
 
 My colleague [Michael Plöd](https://twitter.com/bitboss) gives great talks, and I was thrilled to be able to hear him speak at my own [rheinJUG](http://rheinjug.de/).

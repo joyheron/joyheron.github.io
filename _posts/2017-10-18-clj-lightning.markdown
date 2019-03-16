@@ -5,6 +5,7 @@ post-title: "Clojure & Elixir Lightning Talks"
 date: 2017-10-08 16:00
 categories: sketchnote
 tags: meetup clojure elixir
+thumbnail: /img/thumbnail/2017-10-18-clj-lightning/1.jpg
 ---
 
 At the joint [Clojure](https://www.meetup.com/de-DE/Dusseldorf-Clojure-Meetup/) and [Elixir](https://www.meetup.com/de-DE/preview/Elixir-Meetup-Dusseldorf) [Meetup](https://www.meetup.com/de-DE/Dusseldorf-Clojure-Meetup/events/242644042/) in Düsseldorf, we had a round of lightning talks.

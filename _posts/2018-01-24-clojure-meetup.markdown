@@ -5,6 +5,7 @@ post-title: "core.async"
 date: 2018-01-24 21:00
 categories: sketchnote clojure-meetup
 tags: clojure meetup
+thumbnail: /img/thumbnail/2018-01-24-clojure-meetup/1.jpg
 ---
 
 Today at the [Clojure Meetup in Düsseldorf](https://www.meetup.com/de-DE/Dusseldorf-Clojure-Meetup/), [Björn Ebbinghaus](https://twitter.com/MrOerni) presented Clojure's core.async for us. A very interesting evening! I love core.async!

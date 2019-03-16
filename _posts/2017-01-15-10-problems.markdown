@@ -4,6 +4,7 @@ title: "10 Problems in Software Projects"
 post-title: "10 Problems in Software Projects"
 date: 2017-01-15 20:00
 categories: sketchnote ddd
+thumbnail: /img/thumbnail/2017-01-15-10-problems.jpg
 ---
 
 I [recently](https://twitter.com/iamjoyclark/status/819625907182850048) got my hands on a copy of Domain Driven Design Distilled by Vaughn Vernon. 

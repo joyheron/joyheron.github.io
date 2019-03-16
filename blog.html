@@ -1,18 +1,26 @@
 ---
 layout: page
 title: Blog
-page-title: You should look at...
+page-title: Sketchnotes & More
 ---
 
-<ul>
+<ul class="post-links">
     {% for post in site.posts %}
-    <li>
-        <a class="post-title" href="{{ post.url | prepend: site.baseurl}}">
-            {{ post.categories | first | capitalize }}: {{ post.post-title }}
+    <li class="post-link">
+        <a class="card post-link__link" href="{{ post.url | prepend: site.baseurl }}">
+            <div class="post-link__image">
+                {% if post.thumbnail != null %}
+                    <img src="{{ post.thumbnail }}" alt="{{ post.post-title }} Thumbnail" />
+                {% endif %}
+            </div>
+            <div class="post-link__category">
+                {{ post.categories | first | capitalize }}
+            </div>
+            <h2 class="post-link__title">{{ post.post-title }}</h2>
+            <div class="post-link__meta">
+                {{ post.date | date: '%B %d, %Y' }}
+            </div>
         </a>
-        <div class="post-meta-info">
-            Posted on: {{ post.date | date: '%B %d, %Y' }}
-        </div>
     </li>
     {% endfor %}
 </ul>

@@ -1,298 +1,565 @@
 ---
-layout: default
-title: About Me
+layout: about
+title: About
 ---
 
-<!-- Experience Section -->
-<section id="experience">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>What have I done?</h2>
-                <hr class="star-primary">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <p>During my studies, I had the wonderful opportunity of working with the
-                    <a href="http://stups.hhu.de/w/STUPS_Group">STUPS research group</a> at
-                    the
-                    University of Düsseldorf.
-                </p>
-                <p>The STUPS has developed the <a href="http://stups.hhu.de/ProB/">ProB</a>
-                    tool chain to verify formal specifications.
-                    <a href="https://en.wikipedia.org/wiki/Formal_methods">Formal
-                        specifications</a> are mathematical specifications of a system using
-                    higher order logic and set theory. They can be verified via model
-                    checking and animation using a model checker like ProB, or via proof
-                    using a tool like the <a href="http://www.event-b.org/">Rodin
-                        Platform</a></p>
-                <p>The kernel of the ProB application is written in SICStus Prolog. In order
-                    to be able to integrate it into a wider range of applications, we
-                    implemented a <a href="https://github.com/bendisposto/prob2">Java
-                        API</a> for ProB in Java and Groovy. I was able to participate in
-                    the development process of the Java API from conception to production.
-                    Over the course of the project, I gained a lot of practical experience,
-                    including:</p>
-                <ul>
-                    <li><p>Programming with Java and Groovy using the Eclipse IDE</p></li>
-                    <li><p>Using the Eclipse RCP framework to create a <a
-                            href="https://github.com/bendisposto/prob2-plugin">Plug-in</a>
-                        for the Rodin platform</p></li>
-                    <li><p>Embracing the web technologies HTML, CSS, JavaScript, JQuery,
-                        JUnit, and mustache to create a <a
-                                href="https://github.com/bendisposto/prob2-ui-servlets">user
-                            interface</a> for the ProB Java API.</p></li>
-                    <li><p>Using Clojure and ClojureScript to create a standalone <a
-                            href="https://github.com/bendisposto/prob2-ui-server">server
-                        application</a> for the ProB Java API.</p></li>
-                    <li><p>Using the profiling software YourKit to decrease memory usage and
-                        identify memory leaks.</p></li>
-                    <li><p>Working in conjunction with industry partners during the course
-                        of the <a href="http://www.advance-ict.eu/">ADVANCE project</a>.</p>
-                    </li>
-                </ul>
-                <p>Thanks to my connections at the university, I was also able to get
-                    involved with the <a href="http://rheinjug.de/">RheinJUG</a>, the Java
-                    User Group in Düsseldorf. The organization finds excellent speakers and
-                    offers bi-monthly lectures on industry relevant topics. In 2011, I
-                    started to attend regularly and also started to volunteer, helping to
-                    set up the venue before each talk. In January 2014, I became an official
-                    member of the organization and help set up equipment, man the camera,
-                    and announce future events via social media.</p>
-                <p>See my <a href="https://github.com/joyclark">GitHub profile</a> for a
-                    sample of my work.</p>
-                <p>
-                    As a Software Consultant for innoQ, I have had the opportunity to work
-                    on various projects. There I have gained a lot of experience, including:
-                </p>
-                <ul>
-                    <li><p>Creating Java Web Applications using Spring Boot.
-                        <p></li>
-                    <li><p>Creating Web Front-ends based on the
-                        <a href="http://roca-style.org/">ROCA Architecture Style.</a></p>
-                    </li>
-                    <li><p>Modeling Requirements using Neo4J.</p></li>
-                    <li><p>Working with Microservices within a Kubernetes Cluster.</p></li>
-                    <li><p>Investigating
-                        <a href="https://programm.froscon.de/2016/events/1737.html">
-                            Web Security</a> and
-                        <a href="https://www.innoq.com/en/talks/2016/04/microservice-meetup-clojure/">
-                            Microservices
-                        </a> in Clojure.</p></li>
-                    <li><p>Writing a Clojure REPL to control a
-                        <a href="https://twitter.com/iamjoyclark/status/751440306906734595">
-                            cute Robot</a> over TCP.</p></li>
-                </ul>
-            </div>
+<section class="bg-pink">
+    <div class="container two-column-flex">
+        <img class="img-responsive profile-image" src="/img/profile-medium.jpg" alt="">
+        <di class="two-column-flex__second-column">
+            <h1>About Me</h1>
+            <p>
+                My name is Joy Heron, and I...
+            </p>
+            <ul class="list">
+                <li>develop software</li>
+                <li>love functional programming</li>
+                <li>care about UX and good design</li>
+                <li>find web applications facinating</li>
+            </ul>
+
+            <ul class="social-links">
+                <li>
+                    <a href="https://twitter.com/iamjoyheron"
+                        class="social-links__link"><i
+                            class="fa fa-lg fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/joyheron"
+                        class="social-links__link"><i
+                            class="fa fa-lg fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/joy-heron-49640792/"
+                        class="social-links__link"><i
+                            class="fa fa-lg fa-linkedin"></i></a>
+                </li>
+            </ul>
         </div>
     </div>
 </section>
+<nav class="page-nav container">
+    <a class="page-nav__link" href="#skills">Skills</a>
+    <a class="page-nav__link" href="#experience">Experience</a>
+    <a class="page-nav__link" href="#talks">Talks</a>
+    <a class="page-nav__link" href="#podcasts">Podcasts</a>
+    <a class="page-nav__link" href="#writing">Writing</a>
+    <a class="page-nav__link" href="#education">Education</a>
+</nav>
 
-<!-- Skills Section -->
 <section id="skills">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>What can I do?</h2>
-                <hr class="star-primary">
+        <h2 class="section-title">My skills at a Glance</h2>
+        <dl>
+            <dt>Programming Languages</dt>
+            <dd>Java, JavaScript, Clojure, ClojureScript, Groovy, Prolog, Python, Ruby</dd>
+            <dt>Software Architecture</dt>
+            <dd>Microservices, SCS, HTTP, REST, Microfrontends, Domain-driven Design</dd>
+            <dt>Frontend Technologies & Design</dt>
+            <dd>
+                CSS, HTML, Bootstrap, Web Components, Figma, Customer Testing & UX,
+                Vanilla JS, Plotly, jQuery, DataTables, mustache, Thymeleaf, JSX
+            </dd>
+            <dt>Backend Technologies</dt>
+            <dd>Spring Boot, compojure, Express, Rails, Web Security</dd>
+            <dt>Databases</dt>
+            <dd>SQL, Cassandra, Solr, Neo4J</dd>
+            <dt>Testing</dt>
+            <dd>JUnit, Cypress, Selenium, Spock</dd>
+            <dt>Software Development Tools</dt>
+            <dd>Git, IntelliJ, Eclipse, Emacs, Maven, Gradle, JIRA, Scrum, YourKit, Jenkins, GitLab CI, Docker</dd>
+            <dt>Moderation Techniques</dt>
+            <dd>Open Space Method, Event Storming, Visual Recording</dd>
+            <dt>Formal Methods</dt>
+            <dd>B-Method, Event-B</dd>
+            <dt>Other</dt>
+            <dd>LaTeX, Mac OS, Linux, bash</dd>
+        </dl>
+    </div>
+</section>
+
+<section id="experience" class="bg-blue">
+    <div class="container">
+        <h2 class="section-title">What have I done?</h2>
+
+        <h3 class="subsection-title">
+            Software Consultant at <a href="https://www.innoq.com/en/">INNOQ</a>
+            <div class="text-gray">2016 - present</div>
+        </h3>
+        <p>
+            At <a href="https://www.innoq.com/en/">INNOQ</a>, I work closely together
+            with customers to develop custom software. 
+        </p>
+        <p>
+            The most important question to me is not <b>how</b> to solve a specific
+            problem, but making sure that we are solving the <b>right problem.</b>
+        </p>
+        <p>
+            Based on this knowledge of the core domain, we can decide on the best
+            architecture for our system and decrease complexity so that we can maintain
+            and evolve the system over time.
+        </p>
+        <p>
+            My responsibilities as a consultant include architecture discussions, backend
+            development, web security, and user interface conception and implementation.
+            I also work iteratively with customers to identify problems with the user
+            experience and improve them.
+        </p>
+
+        <h3 class="subsection-title">
+            Research Assistant at Heinrich Heine Universität
+            <div class="text-gray">2011 - 2016</div>
+        </h3>
+        <p>
+            During my studies, I worked with the
+            <a href="http://stups.hhu.de/w/STUPS_Group">STUPS research group</a>
+            and in conjunction with industry partners during the course
+            of the <a href="http://www.advance-ict.eu/">ADVANCE project</a>
+            to develop the <a href="http://stups.hhu.de/ProB/">ProB</a> tool chain for
+            verifying formal specifications.
+        </p>
+        <p>
+            My work mainly consisted of developing a
+            <a href="https://github.com/bendisposto/prob2">Java API</a> written in
+            Java and Groovy for interacting with ProB. I also was able to contribute
+            to the kernel of the application which was written in SICStus Prolog.
+        </p>
+
+        <h3 class="subsection-title">
+            Community
+        </h3>
+        <p>
+            In 2011, I started attending the <a href="http://rheinjug.de/">RheinJUG</a>
+            regularly and volunteering. In 2014 I became an official member of the
+            organization. I also have helped organize the
+            <a href="https://www.meetup.com/Clojure-Duesseldorf/">Clojure Düsseldorf</a>
+            and <a href="https://www.meetup.com/lambdadus/">Lambda Düsseldorf</a> meetups.
+        </p>
+        <p>
+            Since 2017, I have been organising and moderating the
+            <a href="https://entwickelbar.github.io/">EntwickelBar</a> unconference as well.
+        </p>
+    </div>
+</section>
+
+<section id="talks">
+    <div class="container">
+        <h2 class="section-title">Talks I have given</h2>
+
+        <div class="talks">
+            <div class="talk card">
+                <h3 class="talk__title">
+                    Web Component Design
+                </h3>
+                <div class="talk__subtitle">
+                    Designing Frontends for Reusability
+                </div>
+                <a class="talk__link icon-link" href="https://speakerdeck.com/joyheron/web-component-design">
+                    <svg class="icon"><use xlink:href="#icon-desktop"></use></svg>
+                    Slides
+                </a>
+                <ul class="talk__places">
+                    <li><a href="https://2019.rubyonice.com/speakers/joy_heron">Ruby on Ice 2018</a></li>
+                </ul>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <ul>
-                    <li><p><span class="course">Programming Languages:</span> Java, Clojure,
-                        Groovy, Prolog, Python</p></li>
-                    <li><p><span class="course">Web technologies:</span> Spring Boot,
-                        JavaScript, ClojureScript, HTML, CSS, D3, JQuery, mustache,
-                        Thymeleaf</p></li>
-                    <li><p><span class="course">Databases:</span> Neo4J, SQL, Cassandra</p>
-                    </li>
-                    <li><p><span class="course">Testing:</span> JUnit, Selenium, Spock</p>
-                    </li>
-                    <li><p><span class="course">Software Development Tools:</span> Eclipse,
-                        IntelliJ, Maven, Gradle, Git, JIRA, Scrum, YourKit, EclEmma, Jenkins
-                    </p>
-                    </li>
-                    <li><p><span class="course">Other:</span> LaTeX, Mac OS, Linux, bash</p>
-                    </li>
+            <div class="talk card">
+                <h3 class="talk__title">
+                    Microservices Open Space
+                </h3>
+                <div class="talk__subtitle">
+                    Power Workshop: Interact with the Experts!
+                </div>
+                <a class="talk__link icon-link" href="https://twitter.com/i/moments/1085210651734298624">
+                    <svg class="icon"><use xlink:href="#icon-link"></use></svg>
+                    Twitter moment of workshop results
+                </a>
+                <ul class="talk__places">
+                    <li><a href="https://jax.de/microservices/microservices-open-space-ihre-meinung-ist-gefragt/">JAX 2019</a></li>
+                    <li>WJAX 2018</li>
+                </ul>
+            </div>
+            <div class="talk card">
+                <h3 class="talk__title">Web Applications in Clojure</h3>
+                <a class="talk__link icon-link" href="https://speakerdeck.com/joyheron/clojure-web-apps">
+                    <svg class="icon"><use xlink:href="#icon-desktop"></use></svg>
+                    Slides
+                </a>
+                <ul class="talk__places">
+                    <li><a href="https://www.meetup.com/GOTO-Nights-Berlin/events/245852715/">GOTO Night Berlin &ndash; Feb 2018</a></li>
+                    <li>Topconf Linz 2017</li>
+                    <li><a href="https://www.meetup.com/Munich-Clojurians/events/236087500/">Clojure Meetup Munich &ndash; Feb 2017</a></li>
+                </ul>
+            </div>
+            <div class="talk card">
+                <h3 class="talk__title">
+                    Clojure - The Power of simplicity
+                </h3>
+                <a class="talk__link icon-link" href="https://www.maria.cloud/gist/c888e32ec0b719342a60b78ef3479e2f">
+                    <svg class="icon"><use xlink:href="#icon-link"></use></svg>
+                    Interactive REPL of lightning talk content
+                </a>
+                <ul class="talk__places">
+                    <li><a href="https://www.meetup.com/lambdadus/events/247287024/">Lambda Düsseldorf &ndash; Mar 2018</a></li>
+                </ul>
+            </div>
+            <div class="talk card">
+                <h3 class="talk__title">My Ideas about HTML, HTTP, and basic web security</h3>
+                <a class="talk__link icon-link" href="https://speakerdeck.com/joyheron/http-html-and-web-security">
+                    <svg class="icon"><use xlink:href="#icon-desktop"></use></svg>
+                    Slides
+                </a>
+                <ul class="talk__places">
+                    <li><a href="https://entwickelbar.github.io/2018/05/">EntwickelBar 2.0 &ndash; May 2018</a></li>
+                </ul>
+            </div>
+            <div class="talk card">
+                <h3 class="talk__title">The Enemy of the State</h3>
+                <a class="talk__link icon-link" href="https://speakerdeck.com/joyheron/the-enemy-of-the-state">
+                    <svg class="icon"><use xlink:href="#icon-desktop"></use></svg>
+                    Slides
+                </a>
+                <ul class="talk__places">
+                    <li>Topconf Düsseldorf 2017</li>
+                </ul>
+            </div>
+            <div class="talk card">
+                <h3 class="talk__title">Simple AND Secure?</h3>
+                <a class="talk__link icon-link" href="https://youtu.be/lRHPZXKQVLk">
+                    <svg class="icon"><use xlink:href="#icon-video"></use></svg>
+                    Video
+                </a>
+                <a class="talk__link icon-link" href="https://speakerdeck.com/joyheron/simple-and-secure">
+                    <svg class="icon"><use xlink:href="#icon-desktop"></use></svg>
+                    Slides
+                </a>
+                <ul class="talk__places">
+                    <li><a href="http://2017.euroclojure.org/simple-and-secure/">EuroClojure 2017</a></li>
+                    <li><a href="https://www.meetup.com/de-DE/Leipzig-Clojure-Meetup/events/twjvtlywlbkb/">Leipzig Clojure Meetup &ndash; Jul 2017</a></li>
+                </ul>
+            </div>
+            <div class="talk card">
+                <h3 class="talk__title">Clojure Web Security</h3>
+                <a class="talk__link icon-link" href="https://media.ccc.de/v/froscon2016-1737-sichere_webanwendungen_mit_clojure">
+                    <svg class="icon"><use xlink:href="#icon-video"></use></svg>
+                    Video
+                </a>
+                <a class="talk__link icon-link" href="https://speakerdeck.com/joyheron/clojure-web-security-1">
+                    <svg class="icon"><use xlink:href="#icon-desktop"></use></svg>
+                    Slides
+                </a>
+                <ul class="talk__places">
+                    <li><a href="https://www.meetup.com/de-DE/Clojure-Duesseldorf/events/234613609/">Düsseldorf Clojure Meetup &ndash; October 2016</a></li>
+                    <li>CommitterConf 2016</li>
+                    <li><a href="https://programm.froscon.de/2016/events/1737.html">FrOSCon 2016</a></li>
+                </ul>
+            </div>
+            <div class="talk card">
+                <h3 class="talk__title">Microservices with Clojure</h3>
+                <a class="talk__link icon-link" href="https://speakerdeck.com/joyheron/microservices-with-clojure">
+                    <svg class="icon"><use xlink:href="#icon-desktop"></use></svg>
+                    Slides
+                </a>
+                <ul class="talk__places">
+                    <li><a href="https://www.meetup.com/de-DE/Microservices-Meetup-Rhein-Main/events/231333793/">Microservices Meetup Rhein-Main &ndash; June 2016</a></li>
+                    <li><a href="https://www.meetup.com/Microservices-Meetup-Berlin/events/229532463/">Microservices Meetup Berlin &ndash; April 2016</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Education Section -->
-<section id="education">
+<section id="podcasts" class="bg-gray">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>What have I accomplished?</h2>
-                <hr class="star-primary">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2  text-center">
-                <h3>Master of Science in Computer Science</h3>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <p>University of Düsseldorf: October 2013 - February 2016</p>
-            </div>
-            <div class="col-lg-12 text-center"><h4>GPA: 1,01<span class="clickable"
-                                                                  title="1,0 is the highest possible grade.">*</span>
-            </h4></div>
-            <div class="col-lg-12 text-center"><h4>Honors</h4></div>
-            <div class="col-lg-12 text-center"><p><b>Deutschland Stipendium:</b> Scholarship
-                for Academic Excellence October 2014-October 2015</p></div>
-            <div class="col-lg-12 text-center"><h4>Dissertation Topic</h4></div>
-            <div class="col-lg-12 text-center"><p>An Algorithm Description Language for
-                Event-B</p></div>
-            <div class="col-lg-12 text-center"><h4>Course Work</h4></div>
-            <div class="col-lg-3 col-lg-offset-2">
-                <p class="course">Functional Programming</p>
-            </div>
-            <div class="col-lg-7"><p>Learning the principles of program design and
-                simplicity. Using immutable data structures and higher order functions to
-                decouple data and behavior and create smaller components which can then be
-                composed.</p>
-                <p><b>Project:</b> Implemented a Petri net simulator in ClojureScript</p>
-            </div>
-            <div class="col-lg-3 col-lg-offset-2">
-                <p class="course">Dynamic Programming Languages</p>
-            </div>
-            <div class="col-lg-7"><p>Learning the basic concepts of dynamic languages:
-                dynamic typing, reflection, and multiple inheritance and how to write an
-                interpreter for a dynamic programming language.</p>
-                <p><b>Project:</b> Implemented an interpreter for a dynamic prototype-based
-                    programming language.</p></div>
-            <div class="col-lg-3 col-lg-offset-2">
-                <p class="course">Advanced Computer Networks</p>
-            </div>
-            <div class="col-lg-7"><p>Studying and presenting on research papers in the field
-                of computer networks to increase knowledge base and learn which discoveries
-                were considered ground breaking in the field.</p>
-                <p></div>
-            <div class="col-lg-3 col-lg-offset-2">
-                <p class="course">Advanced Logical Programming</p>
-            </div>
-            <div class="col-lg-7"><p>Learning advanced concepts in logical programming:
-                abstract interpretation, SAT and SMT solving, constraint based solving, and
-                partial evaluation.</p>
-                <p><b>Course work:</b> Implemented a simple abstract interpreter in Prolog.
-                    Wrote a simple SAT solver. Implemented a partial evaluator for Prolog in
-                    Prolog.</p></div>
-            <div class="col-lg-3 col-lg-offset-2">
-                <p class="course">Network Security</p>
-            </div>
-            <div class="col-lg-7"><p>Learning how to exploit weaknesses in systems in order
-                to understand how to better protect networks against intruders. Covered
-                exploits at all levels in the system.</p>
-                <p><b>Course work:</b> Exploited multiple virtual systems via buffer
-                    overflow exploits, DOS viruses, and security holes in web applications.
-                    In a group, set up a small network with firewalls, a proxy, and an
-                    intrusion detection system.</p></div>
-            <div class="col-lg-3 col-lg-offset-2">
-                <p class="course">Safety Critical Systems</p>
-            </div>
-            <div class="col-lg-7"><p>Exploring how formal methods can be used in order to
-                discover and prevent safety or security vulnerabilities from appearing in
-                software. Learning the basics of modelling using the Event-B specification
-                language and the basics of verification via proof (using the Rodin tool) and
-                via model checking and animation (using the ProB tool).</p>
-                <p><b>Project: </b>Modelled a landing gear system for an airplane using
-                    Event-B.</p></div>
-            <div class="col-lg-3 col-lg-offset-2">
-                <p class="course">Efficient Algorithms</p>
-            </div>
-            <div class="col-lg-7"><p>Learning the basics of efficiency for algorithms.
-                Examining and analyzing algorithms used for algebraic calculations, problems
-                in number theory, and sorting algorithms.</p></div>
-            <div class="col-lg-3 col-lg-offset-2">
-                <p class="course">Algorithms for Drawing Graphs</p>
-            </div>
-            <div class="col-lg-7"><p>Learning how to use algorithms to draw aesthetically
-                pleasing trees, planar graphs, and multigraphs. </p></div>
+        <h2 class="section-title">Podcasts I have been on</h2>
 
+        <div class="podcasts">
+            <div class="podcast card">
+                <div class="podcast__role">Host on CaSE Podcast</div>
+                <img class="podcast__image" src="http://images.dohmen.io/case.png" alt="CaSE Podcast Logo" />
+                <div class="podcast__date">Jul 7, 2018</div>
+                <h3 class="podcast__title">Web Frontend with Lucas Dohmen</h3>
+                <a class="podcast__link icon-link" href="https://www.case-podcast.org/21-web-frontend-with-lucas-dohmen">
+                    <svg class="icon"><use xlink:href="#icon-microphone"></use></svg>
+                    Listen to podcast
+                </a>
+            </div>
+            <div class="podcast card">
+                <div class="podcast__role">Host on CaSE Podcast</div>
+                <img class="podcast__image" src="http://images.dohmen.io/case.png" alt="CaSE Podcast Logo" />
+                <div class="podcast__date">May 3, 2018</div>
+                <h3 class="podcast__title">Problem Solving and Clojure 1.9 with Rich Hickey</h3>
+                <a class="podcast__link icon-link" href="https://www.case-podcast.org/20-problem-solving-and-clojure-19-with-rich-hickey">
+                    <svg class="icon"><use xlink:href="#icon-microphone"></use></svg>
+                    Listen to podcast
+                </a>
+            </div>
+            <div class="podcast card">
+                <div class="podcast__role">Guest on INNOQ Podcast</div>
+                <img class="podcast__image" src="/img/podcast-open-space.png" alt="INNOQ Podcast Logo" />
+                <div class="podcast__date">May 24, 2018</div>
+                <h3 class="podcast__title">Open Spaces</h3>
+                <a class="podcast__link icon-link" href="https://www.innoq.com/en/podcast/047-open-spaces/">
+                    <svg class="icon"><use xlink:href="#icon-microphone"></use></svg>
+                    Listen to podcast (German)
+                </a>
+            </div>
+            <div class="podcast card">
+                <div class="podcast__role">Guest on HMww</div>
+                <img class="podcast__image" src="https://mies.me/wp-content/cache/podlove/09/cad1c2bcc3b506410d277c27cc12fb/herr-mies-wills-wissen_500x500.png" alt="Herr Mies wills wissen Podcast Logo" />
+                <div class="podcast__date">Apr 4, 2018</div>
+                <h3 class="podcast__title">Clojure mit Joy Clark</h3>
+                <a class="podcast__link icon-link" href="https://mies.me/2018/04/11/hmww22-clojure-mit-joy-clark/">
+                    <svg class="icon"><use xlink:href="#icon-microphone"></use></svg>
+                    Listen to podcast (German)
+                </a>
+            </div>
+            <div class="podcast card">
+                <div class="podcast__role">Host on CaSE Podcast</div>
+                <img class="podcast__image" src="http://images.dohmen.io/case.png" alt="CaSE Podcast Logo" />
+                <div class="podcast__date">Mar 29, 2018</div>
+                <h3 class="podcast__title">Application Security with Peter Chestna</h3>
+                <a class="podcast__link icon-link" href="https://www.case-podcast.org/18-application-security">
+                    <svg class="icon"><use xlink:href="#icon-microphone"></use></svg>
+                    Listen to podcast
+                </a>
+            </div>
+            <div class="podcast card">
+                <div class="podcast__role">Host on CaSE Podcast</div>
+                <img class="podcast__image" src="http://images.dohmen.io/case.png" alt="CaSE Podcast Logo" />
+                <div class="podcast__date">Jan 25, 2018</div>
+                <h3 class="podcast__title">Domain-Driven Design with Vaughn Vernon</h3>
+                <a class="podcast__link icon-link" href="https://www.case-podcast.org/15-domain-driven-design-with-vaughn-vernon">
+                    <svg class="icon"><use xlink:href="#icon-microphone"></use></svg>
+                    Listen to podcast
+                </a>
+            </div>
+            <div class="podcast card">
+                <div class="podcast__role">Host on CaSE Podcast</div>
+                <img class="podcast__image" src="http://images.dohmen.io/case.png" alt="CaSE Podcast Logo" />
+                <div class="podcast__date">Dec 21, 2017</div>
+                <h3 class="podcast__title">Domain-Driven Design with Vaughn Vernon</h3>
+                <a class="podcast__link icon-link" href="https://www.case-podcast.org/14-aim42-with-gernot-starke">
+                    <svg class="icon"><use xlink:href="#icon-microphone"></use></svg>
+                    Listen to podcast
+                </a>
+            </div>
+            <div class="podcast card">
+                <div class="podcast__role">Guest on HMww</div>
+                <img class="podcast__image" src="https://mies.me/wp-content/cache/podlove/09/cad1c2bcc3b506410d277c27cc12fb/herr-mies-wills-wissen_500x500.png" alt="Herr Mies wills wissen Podcast Logo" />
+                <div class="podcast__date">Nov 8, 2017</div>
+                <h3 class="podcast__title">Sketchnotes mit Joy Clark</h3>
+                <a class="podcast__link icon-link" href="https://mies.me/2017/11/08/hmww11-sketchnotes-mit-joy-clark/">
+                    <svg class="icon"><use xlink:href="#icon-microphone"></use></svg>
+                    Listen to podcast (German)
+                </a>
+            </div>
+            <div class="podcast card">
+                <div class="podcast__role">Host on CaSE Podcast</div>
+                <img class="podcast__image" src="http://images.dohmen.io/case.png" alt="CaSE Podcast Logo" />
+                <div class="podcast__date">Nov 9, 2017</div>
+                <h3 class="podcast__title">ClojureScript with David Nolen</h3>
+                <a class="podcast__link icon-link" href="https://www.case-podcast.org/12-clojurescript-with-david-nolen">
+                    <svg class="icon"><use xlink:href="#icon-microphone"></use></svg>
+                    Listen to podcast
+                </a>
+            </div>
+            <div class="podcast card">
+                <div class="podcast__role">Guest on Cognicast</div>
+                <img class="podcast__image" src="https://static1.squarespace.com/static/5372821be4b0aefc6719057e/t/59d500ded7bdce766327df60/1507131657751/General+purpose+cover+art.jpeg?format=750w" alt="Cognicast Podcast Logo" />
+                <div class="podcast__date">Oct 4, 2017</div>
+                <h3 class="podcast__title">Joy Clark</h3>
+                <a class="podcast__link icon-link" href="http://blog.cognitect.com/cognicast/133">
+                    <svg class="icon"><use xlink:href="#icon-microphone"></use></svg>
+                    Listen to podcast
+                </a>
+            </div>
+            <div class="podcast card">
+                <div class="podcast__role">Host on CaSE Podcast</div>
+                <img class="podcast__image" src="http://images.dohmen.io/case.png" alt="CaSE Podcast Logo" />
+                <div class="podcast__date">Sep 14, 2017</div>
+                <h3 class="podcast__title">Scala with Sofia Vaughn-Jones</h3>
+                <a class="podcast__link icon-link" href="https://www.case-podcast.org/10-scale-with-sofia-vaughn-jones">
+                    <svg class="icon"><use xlink:href="#icon-microphone"></use></svg>
+                    Listen to podcast
+                </a>
+            </div>
+            <div class="podcast card">
+                <div class="podcast__role">Guest on INNOQ Podcast</div>
+                <img class="podcast__image" src="/img/podcast-berufseinsteiger-und-mentoring.png" alt="INNOQ Podcast Logo" />
+                <div class="podcast__date">Jul 24, 2017</div>
+                <h3 class="podcast__title">Berufseinsteiger und Mentoring in der IT</h3>
+                <a class="podcast__link icon-link" href="https://www.innoq.com/en/podcast/034-berufseinsteiger-und-mentoring/">
+                    <svg class="icon"><use xlink:href="#icon-microphone"></use></svg>
+                    Listen to Podcast (German)
+                </a>
+             </div>
+            <div class="podcast card">
+                <div class="podcast__role">Host on CaSE Podcast</div>
+                <img class="podcast__image" src="http://images.dohmen.io/case.png" alt="CaSE Podcast Logo" />
+                <div class="podcast__date">Aug 3, 2017</div>
+                <h3 class="podcast__title">Clojure with Alex Miller</h3>
+                <a class="podcast__link icon-link" href="https://www.case-podcast.org/8-clojure-with-alex-miller">
+                    <svg class="icon"><use xlink:href="#icon-microphone"></use></svg>
+                    Listen to podcast
+                </a>
+            </div>
+            <div class="podcast card">
+                <div class="podcast__role">Host on CaSE Podcast</div>
+                <img class="podcast__image" src="http://images.dohmen.io/case.png" alt="CaSE Podcast Logo" />
+                <div class="podcast__date">Jun 1, 2017</div>
+                <h3 class="podcast__title">Legacy Software and Immutable Architecture with Chad Fowler</h3>
+                <a class="podcast__link icon-link" href="https://www.case-podcast.org/5-legacy-software-and-immutable-infrastructure-with-chad-fowler">
+                    <svg class="icon"><use xlink:href="#icon-microphone"></use></svg>
+                    Listen to podcast
+                </a>
+            </div>
+            <div class="podcast card">
+                <div class="podcast__role">Host on CaSE Podcast</div>
+                <img class="podcast__image" src="http://images.dohmen.io/case.png" alt="CaSE Podcast Logo" />
+                <div class="podcast__date">May 11, 2017</div>
+                <h3 class="podcast__title">Software Architecture with Stefan Tilkov</h3>
+                <a class="podcast__link icon-link" href="https://www.case-podcast.org/4-software-architecture">
+                    <svg class="icon"><use xlink:href="#icon-microphone"></use></svg>
+                    Listen to podcast
+                </a>
+            </div>
+            <div class="podcast card">
+                <div class="podcast__role">Guest on INNOQ Podcast</div>
+                <img class="podcast__image" src="/img/podcast-prolog.png" alt="INNOQ Podcast Logo" />
+                <div class="podcast__date">Feb 27, 2017</div>
+                <h3 class="podcast__title">Prolog</h3>
+                <a class="podcast__link icon-link" href="https://www.innoq.com/en/podcast/027-prolog/">
+                    <svg class="icon"><use xlink:href="#icon-microphone"></use></svg>
+                    Listen to podcast (German)
+                </a>
+            </div>
         </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2  text-center">
-                <h3>Bachelor of Science in Computer Science</h3>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2 text-center"><p>University of Düsseldorf:
-                October 2010 - September 2013</p></div>
-            <div class="col-lg-12 text-center"><h4>GPA: 1,5<span class="clickable"
-                                                                 title="1,0 is the highest possible grade.">*</span>
-            </h4></div>
-            <div class="col-lg-12 text-center"><h4>Dissertation Grade: 1,0<span
-                    class="course" title="1,0 is the highest possible grade.">*</span></h4>
-            </div>
-            <div class="col-lg-12 text-center"><h4>Dissertation Topic</h4></div>
-            <div class="col-lg-12 text-center"><a
-                    href="http://stups.hhu.de/w/Data_Visualization_in_ProB"><p>Data
-                Visualization in ProB</p></a></div>
-            <div class="col-lg-12 text-center"><h4>Course Work</h4></div>
-            <div class="col-lg-3 col-lg-offset-2">
-                <p class="course">Compilers</p>
-            </div>
-            <div class="col-lg-7"><p>Learning the basics of how to write a parser,
-                interpreter, and compiler for a given programming language.</p>
-                <p><b>Course Work:</b> Implemented a compiler from Pascal to JVM bytecode in
-                    Java using SableCC for parser generation.</p></div>
-            <div class="col-lg-3 col-lg-offset-2">
-                <p class="course">Introduction to Logical Programming</p>
-            </div>
-            <div class="col-lg-7"><p>Learning the basics of the Prolog programming language
-                and the logical programming paradigm.</p>
-                <p><b>Course Work:</b> Implemented an interpreter for a simple imperative
-                    program in Prolog.</p></div>
-            <div class="col-lg-3 col-lg-offset-2">
-                <p class="course">Computer Networks</p>
-            </div>
-            <div class="col-lg-7"><p>Learning the basics of computer networking and the
-                communication protocols for each layer in a network (HTTP, TCP, IP,
-                Ethernet,etc.).</p>
-                <p><b>Course Work:</b> Group exercise to set up a small network. Practical
-                    exercise using IPv6.</p></div>
-            <div class="col-lg-3 col-lg-offset-2">
-                <p class="course">From NAND to Tetris</p>
-            </div>
-            <div class="col-lg-7"><p>Learning how to build a computer from the ground up.
-                Based on <a href="http://www.nand2tetris.org/">this</a> course.</p>
-                <p><b>Course Work:</b> Using simulation tools, implemented each level in the
-                    computer architecture from logical gate to operating system.</p></div>
+    </div>
+</section>
+<section id="writing">
+    <div class="container">
+        <h2 class="section-title">My Writing around the Web</h2>
+        <ul class="list">
+            <li>
+               <a class="writing__link" href="https://www.innoq.com/de/blog/html-forms/">The Power of the HTML Form</a>
+               <div class="writing__description">Blog Article on the INNOQ Blog</div>
+            </li>
+            <li>
+                <a class="writing__link" href="https://www.innoq.com/de/blog/simplicity-fighting-complexity/">
+                    Simplicity &ndash; Fighting Complexity at all Costs
+                </a>
+                <div class="writing__description">Blog Article on the INNOQ Blog</div>
+            </li>
+            <li>
+                <a class="writing__link" href="https://www.innoq.com/de/blog/oidc-playground/">
+                    A Playground for Testing OpenID Connect
+                </a>
+                <div class="writing__description">Blog Article on the INNOQ Blog</div>
+            </li>
+            <li>
+                <a class="writing__link" href="https://link.springer.com/chapter/10.1007%2F978-3-319-33600-8_11">An Algorithm Description Language for Event-B</a>
+                <div class="writing__description">Article published for the ABZ 2016</div>
+            </li>
+            <li>
+                <a class="writing__link" href="https://www.heise.de/developer/artikel/Die-jungen-Wilden-Joy-Clark-3909659.html">Die junge Wilden: Joy Clark</a>
+                <div class="writing__description">Interview on heise.de (German)</div>
+            </li>
+        </ul>
+        <p>
+            Find sketchnotes and more samples of my writing on my <a href="/blog.html">blog</a>.
+        </p>
+    </div>
+</section>
+<section id="education" class="bg-pink">
+    <div class="container">
+        <h2 class="section-title">
+            My Education
+        </h2>
+        <h3 class="subsection-title">
+            Master of Science in Computer Science
+            <div class="text-gray">University of Düsseldorf: October 2013 &ndash; February 2016</div>
+        </h3>
+
+        <div class="two-column-grid">
+            <dl>
+                <dt>GPA</dt>
+                <dd class="hoverable" title="1,0 is the highest possible grade.">1,0*</dd>
+                <dt>Honors</dt>
+                <dd>Deutschland Stipendium: Scholarship for Academic Excellence October 2014 &ndash; October 2015</dd>
+                <dt>Dissertation Topic</dt>
+                <dd>An Algorithm Description Language for Event-B</dd>
+            </dl>
+            <dl>
+                <dt>Selected Course Work</dt>
+                <dd>
+                    <ul class="list">
+                        <li>Functional Programming</li>
+                        <li>Dynamic Programming Languages</li>
+                        <li>Advanced Computer Networks</li>
+                        <li>Advanced Logical Programming</li>
+                        <li>Network Security</li>
+                        <li>Safety Critical Systems</li>
+                        <li>Efficient Algorithms</li>
+                        <li>Algorithms for Drawing Graphs</li>
+                    </ul>
+                </dd>
+            </dl>
         </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2  text-center">
-                <h3>
-                    <a href="https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages">C1</a>
-                    level in German</h3>
-                <p>Fluent in German in speech and writing.</p>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2 text-center"><p>Sprachforum Heinrich Heine
-                Düsseldorf: October 2009 - March 2010</p></div>
+
+        <h3 class="subsection-title">
+            Bachelor of Science in Computer Science
+            <div class="text-gray">University of Düsseldorf: October 2010 &ndash; September 2013</div>
+        </h3>
+
+        <div class="two-column-grid">
+            <dl>
+                <dt>GPA</dt>
+                <dd class="hoverable" title="1,0 is the highest possible grade.">1,5*</dd>
+                <dt>Dissertation Topic</dt>
+                <dd>Data Visualization in ProB</dd>
+            </dl>
+            <dl>
+                <dt>Selected Course Work</dt>
+                <dd>
+                    <ul class="list">
+                        <li>Compilers</li>
+                        <li>Introduction to Logical Programming</li>
+                        <li>Computer Networks</li>
+                        <li>From NAND to Tetris</li>
+                    </ul>
+                </dd>
+            </dl>
         </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2  text-center">
-                <h3>Associates of Arts</h3>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2 text-center"><p>Spokane Falls Community
-                College: September 2007 - June 2009</p>
-                <p>Spokane, WA, USA</p></div>
-            <div class="col-lg-12 text-center"><h4>GPA: 3.96 (A)<span class="clickable"
-                                                                      title="4.0 is the highest possible grade.">*</span>
-            </h4></div>
-        </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2  text-center">
-                <h3>High School Diploma</h3>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2 text-center"><p>North Central High School:
-                September 2005 - June 2009</p>
-                <p>Spokane, WA, USA</p></div>
-            <div class="col-lg-12 text-center"><h4>GPA: 4.0 (A+)<span class="clickable"
-                                                                      title="4.0 is the highest possible grade.">*</span>
-            </h4>
-                <p>Valedictorian</p></div>
-        </div>
+
+        <h3 class="subsection-title">
+            <a href="https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages">C1</a>
+            level in German
+            <div class="text-gray">Sprachforum Heinrich Heine
+                    Düsseldorf: October 2009 &ndash; March 2010</div>
+        </h3>
+
+        <p>Fluent in German in speech and writing.</p>
+
+        <h3 class="subsection-title">
+            Associates of Arts
+            <div class="text-gray">Spokane Falls Community College: September 2007 &ndash; June 2009</div>
+        </h3>
+
+        <dl>
+            <dt>GPA</dt>
+            <dd class="hoverable" title="4.0 is the highest possible grade.">GPA: 3.96 (A)*</dd>
+        </dl>
+
+        <h3 class="subsection-title">
+            High School Diploma
+            <div class="text-gray">North Central High School: September 2005 - June 2009</div>
+        </h3>
+
+        <dl>
+            <dt>GPA</dt>
+            <dd class="hoverable" title="4.0 is the highest possible grade.">
+                4.0 (A+)*, Valedictorian
+            </dd>
+        </dl>
     </div>
 </section>

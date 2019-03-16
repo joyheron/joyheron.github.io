@@ -5,6 +5,7 @@ post-title: "GOTO Berlin 2017"
 date: 2017-11-17 19:30
 categories: sketchnote conference
 tags: goto gotober
+thumbnail: /img/thumbnail/2017-11-17-gotober/01.jpg
 ---
 
 This year was the first time I have been able to go to the [GOTO Conference in Berlin](https://gotober.com/). I really have only positive things to say about my experience. The organization was superb, the food was delicious, and the speakers and talks were absolutely amazing. I was particularly impressed with the Keynote talks which really introduced me to fields that I'd never even considered before: travelling to Mars, how mathematics can be used to analyze human behavior, autonomous drone systems, and the case for why we really need encryption in the age of eavesdropping. Very inspiring!

@@ -5,6 +5,7 @@ post-title: "rheinJUG: About DDD, CQRS, and Event Sourcing"
 date: 2017-08-10 21:30
 categories: sketchnote rheinJUG
 tags: talk
+thumbnail: /img/thumbnail/2017-08-10-rheinjug/2.jpg
 ---
 
 [Marco Heimeshoff](https://twitter.com/Heimeshoff) gave an absolutely amazing talk about DDD at the rheinJUG. It was very beginner friendly (so perfect for me), and I just might have fallen in love with DDD during the talk. I also ABSOLUTELY LOVED the hand done slides! Some of the slides I just had to copy for my sketchnote. :)

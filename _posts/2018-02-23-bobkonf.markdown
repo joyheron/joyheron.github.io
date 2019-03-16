@@ -5,6 +5,7 @@ post-title: "BOB Konferenz: FP Conference in Berlin"
 date: 2018-02-23 20:00
 categories: sketchnote conference
 tags: fp
+thumbnail: /img/thumbnail/2018-02-23-bobkonf/6.jpg
 ---
 
 This year was my first year at the [BOB Konf](http://bobkonf.de/) in Berlin. All of the talks were something to do with FP, and it was really interesting to see the broadness of the spectrum of the talks. Here are my sketchnotes.

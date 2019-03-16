@@ -1,20 +1,10 @@
 ---
 layout: default
 ---
-<section class="post">
+<section class="post bg-gray">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h3>{{ page.categories | first | capitalize }}:</h3>
-        <h3>{{ page.post-title }}</h3>
-        <hr class="star-primary">
-        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
-        {{ content }}
-      </div>
-    </div>
+    <h1 class="post__title">{{ page.post-title }}</h1>
+    <p class="post__meta">{{ page.categories | first | capitalize }} <i class="fa fa-heart"></i>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    {{ content }}
   </div>
 </section>

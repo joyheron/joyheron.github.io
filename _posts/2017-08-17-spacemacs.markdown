@@ -5,6 +5,7 @@ post-title: "Spacesmacs + Clojure = ?"
 date: 2017-08-17 23:00
 categories: post sketchnote clojure-meetup
 tags: clojure meetup
+thumbnail: /img/thumbnail/2017-08-17-spacemacs.jpg
 ---
 
 Editors are always a tricky subject for me. Clojure is my favorite language, but there are many different editor options, and up to now, I haven't found the perfect one. I've tried Emacs multiple times, but I have the problem that I quickly develop [Emacs pinky](http://ergoemacs.org/emacs/emacs_pinky.html) when using it and I also always forget the commands. I tried [Cursive](https://cursive-ide.com/) for a while and really liked it but didn't want to spend the money on a license for the little hacking which I do in my free time (and which isn't open source yet so I don't feel I can use the free license). My fallback is [Nightcode](https://sekao.net/nightcode/) because it does what it says it does, has par-infer and pretty much stays out of my way.

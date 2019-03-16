@@ -5,6 +5,7 @@ post-title: "CaSE Podcast with David Nolen about ClojureScript and more"
 date: 2017-11-09 10:00
 categories: podcast sketchnote
 tags: clojure clojurescript casepodcast
+thumbnail: http://images.dohmen.io/case.png
 ---
 
 I had a great time interviewing [David Nolen](https://twitter.com/swannodette) about clojurescript.

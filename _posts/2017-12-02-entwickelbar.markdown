@@ -5,6 +5,7 @@ post-title: "EntwickelBar 1.0"
 date: 2017-12-02 19:30
 categories: blog sketchnote unconference
 tags: entwickelbar openspace unconference
+thumbnail: /img/thumbnail/2017-12-02-entwickelbar/4.jpg
 ---
 
 We just had [EntwickelBar 1.0](https://entwickelbar.github.io), the first and best Open Space Unconference in Düsseldorf. Of course, I am extremely biased since I organized the conference together with two friends ([Jens](https://twitter.com/jbendisposto) and [Christian](https://twitter.com/cmeter_)).

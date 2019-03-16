@@ -5,6 +5,7 @@ post-title: "KonMari: The Life-Changing Magic of Tidying Up"
 date: 2017-10-08 16:00
 categories: sketchnote
 tags: konmari
+thumbnail: /img/thumbnail/2017-10-08-konmari/2.jpg
 ---
 
 ### The KonMari Method

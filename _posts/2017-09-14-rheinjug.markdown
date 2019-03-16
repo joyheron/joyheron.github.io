@@ -5,6 +5,7 @@ post-title: "rheinJUG: Java EE - der Weg in die Cloud"
 date: 2017-09-14 21:30
 categories: sketchnote rheinJUG
 tags: talk
+thumbnail: /img/thumbnail/2017-09-14-rheinjug-javaee.jpg
 ---
 
 Usually I really enjoy the talks at the [rheinJUG](http://rheinjug.de/). To be honest, I'm not really interested that much in JavaEE and basically the only reason I was there was to help set everything up and help moderate the talk.
