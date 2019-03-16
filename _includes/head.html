@@ -8,7 +8,7 @@
 
     {% feed_meta %}
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{% if page.html-title %}{{ page.html-title }}{% else %}{{ site.title }}{% endif %}</title>
     <link href="{{ '/css/layout.css' | prepend: site.baseurl }}" rel="stylesheet">
 
     <!-- Custom Fonts -->
