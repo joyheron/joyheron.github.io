@@ -112,28 +112,30 @@ section {
   margin: auto;
 }
 
+/* LANDING PAGE */
 .landing-page-layout {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
-.landing-page-grid {
-  display: grid;
-  grid-template-areas: "nav photo" "content content";
-  grid-template-columns: 15rem auto;
+.landing-page__switcher {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 45rem;
 }
 .landing-page-content {
-  grid-area: content;
-  max-width: 35rem;
-  margin: 0 var(--space-md);
   padding: var(--space-lg);
   background-color: var(--pink-100);
   box-shadow: var(--shadow);
+  flex-basis: 20rem;
+  flex-grow: 40;
 }
 .landing__title {
   font-family: 'Fira Sans Condensed', sans-serif;
 }
 
+/* BACKGROUND */
 .bg-pink {
   background-color: var(--pink-100);
 }
@@ -152,15 +154,12 @@ section {
   background-color: var(--blue-100);
 }
 
+/* NAVBAR */
 .navbar {
   display: flex;
-  grid-area: nav;
   align-items: end;
 }
-.navbar--landing {
-  margin-left: var(--space-lg);
-}
-.navbar__page {
+.navbar__item {
   padding: 0.25rem 0; /* IE11 Fallback */
   padding: var(--space-xxs) 0;
   margin: 0.75rem; /* IE11 Fallback */
@@ -172,7 +171,7 @@ section {
   text-decoration: none;
   border-bottom: 2px solid transparent;
 }
-.navbar__page:hover {
+.navbar__item:hover {
   border-color: var(--gray-200);
 }
 
@@ -196,21 +195,15 @@ section {
 
 .image-container {
   display: flex;
-  grid-area: photo;
+  flex-grow: 1;
   align-items: center;
-  justify-content: flex-end;
-  margin-right: var(--space-lg);
-  margin-top: var(--space-xxs);
+  justify-content: center;
+  background-color: var(--gray-100);
 }
 .profile-image {
   width: 100%;
-  max-width: 10rem;
+  max-width: 15rem;
   box-shadow: var(--shadow);
-}
-.image-overlap {
-  margin-left: -2rem;
-  margin-bottom: -2rem;
-  z-index: 3;
 }
 
 .social-links {
@@ -220,8 +213,9 @@ section {
   grid-area: links;
   justify-content: center;
   margin-top: var(--space-lg);
+  margin-bottom: 0;
 }
-.social-links__link {
+.social-links > * {
   padding-right: 1.25rem; /* IE11 Fallback */
   padding-right: var(--space-md);
 }
@@ -240,6 +234,9 @@ section {
   text-transform: uppercase;
 }
 
+h1 {
+  margin-top: 0;
+}
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
 }
@@ -473,18 +470,5 @@ dd + dt {
   }
   .page-nav {
     padding: var(--space-xs) var(--space-xxl);
-  }
-  .image-container {
-    justify-content: flex-start;
-    margin-top: 0;
-    margin-right: 0;
-  }
-  .profile-image {
-    max-width: 15rem;
-  }
-  .landing-page-grid {
-    grid-template-areas: "nav nav"
-      "content photo";
-    grid-template-columns: 35rem 15rem;
   }
 }

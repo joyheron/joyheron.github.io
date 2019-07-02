@@ -1,13 +1,13 @@
 <nav class="navbar">
-    <a class="navbar__page" href="/">
+    <a class="navbar__item" href="/">
         <i class="fa fa-heart"></i>
     </a>
     {% if page.title != null %}
-        <a class="navbar__page" href="/">Joy Heron</a>
+        <a class="navbar__item" href="/">Joy Heron</a>
     {% endif %}
     {% for page in site.pages %}
     {% if page.title %}
-        <a class="navbar__page" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        <a class="navbar__item" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
     {% endif %}
     {% endfor %}
 </nav>
