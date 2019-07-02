@@ -115,6 +115,22 @@ section {
   margin: auto;
 }
 
+/* SYMMETRICAL TWO COLUMNS */
+.two-columns {
+  display: flex;
+  flex-wrap: wrap;
+  --margin: var(--space-xs);
+  --multiplier: calc(40rem - 100%);
+  margin: calc(-1 * var(--margin));
+}
+.two-columns > * {
+  min-width: calc(50% - (var(--margin) * 2));
+  max-width: 100%;
+  flex-grow: 1;
+  flex-basis: calc(var(--multiplier) * 999);
+  margin: var(--margin);
+}
+
 /* ASYMMETRIC TWO COLUMNS */
 .asymmetric-two-columns {
   display: flex;
@@ -458,13 +474,4 @@ dd + dt {
 .post-link__meta {
   flex-grow: 1;
   align-items: flex-end;
-}
-
-/* Small Page Up */
-@media(min-width: 576px) {
-  .two-column-grid {
-    display: grid;
-    grid-template-columns: 40% auto;
-    grid-gap: var(--space-lg);
-  }
 }
