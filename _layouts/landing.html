@@ -14,16 +14,15 @@
             {% endfor %}
         </nav>
 
-        <div class="landing-page__switcher">
-            <div class="image-container">
+        <div class="asymmetric-two-columns">
+            <div class="image-container bg-gray asymmetric-two-columns__stay">
                 {% include img.html %}
             </div>
-            <div class="landing-page-content bg-pink">
+            <div class="landing-page-content bg-pink asymmetric-two-columns__grow">
                 <h1 class="landing__title">
                     <div class="text-colored">Hello, I'm</div>
                     Joy Heron, a software developer
                 </h1>
-
                 {{ content }}
             </div>
         </div>

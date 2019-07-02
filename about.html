@@ -5,21 +5,24 @@ html-title: Joy Heron - About
 ---
 
 <section class="bg-pink">
-    <div class="container two-column-flex">
-        <img class="profile-image" src="/img/profile-medium.jpg" alt="Profile Picture of Joy">
-        <div class="two-column-flex__second-column">
-            <h1>About Me</h1>
-            <p>
-                My name is Joy Heron, and I...
-            </p>
-            <ul class="list">
-                <li>develop software</li>
-                <li>love functional programming</li>
-                <li>care about UX and good design</li>
-                <li>find web applications fascinating</li>
-            </ul>
-
-            {% include social-links.html %}
+    <div class="container">
+        <div class="asymmetric-two-columns asymmetric-two-columns--margin">
+            <div class="asymmetric-two-columns__stay image-container">
+                <img class="profile-image" src="/img/profile-medium.jpg" alt="Profile Picture of Joy">
+            </div>
+            <div class="asymmetric-two-columns__grow">
+                <h1>About Me</h1>
+                <p>
+                    My name is Joy Heron, and I...
+                </p>
+                <ul class="list">
+                    <li>develop software</li>
+                    <li>love functional programming</li>
+                    <li>care about UX and good design</li>
+                    <li>find web applications fascinating</li>
+                </ul>
+                {% include social-links.html %}
+            </div>
         </div>
     </div>
 </section>
