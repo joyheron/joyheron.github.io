@@ -13,7 +13,7 @@ html {
   --gray-400: hsl(209, 12%, 51%);
   --gray-300: hsl(209, 12%, 72%);
   --gray-200: hsl(209, 10%, 88%);
-  --gray-100: hsl(209, 10%, 96%);
+  --gray-100: hsl(204, 45.5%, 97.8%);
 
   --pink-700: hsl(305, 100%, 18%);
   --pink-600: hsl(305, 76%, 32%);
@@ -31,16 +31,12 @@ html {
   --space-xl: 3.25rem;
   --space-xxl: 5.25rem;
 
-  --screen-size-sm: 576px;
-  --screen-size-md: 768px;
-  --screen-size-lg: 992px;
-
   --shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);
 
-  --font-size-xs: 14px;
-  --font-size-sm: 16px;
-  --font-size-md: 18px;
-  --font-size-lg: 20px;
+  --font-size-xs: 0.5rem;
+  --font-size-sm: 0.75rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.5rem;
 
   --margin-bottom-with-grid: 0;
 
@@ -55,19 +51,19 @@ body {
 }
 
 p {
-  line-height: 1.5rem;
-  font-size: 1.125rem;
+  line-height: 2rem;
+  font-size: 1.25rem;
 }
 
 a {
   text-decoration: underline;
   text-decoration-color: var(--gray-200);
   color: #27cedd; /* IE11 Fallback */
-  color: var(--blue-400);
+  color: var(--blue-500);
   font-weight: 500;
 }
 a:hover {
-  color: var(--pink-400);
+  color: var(--pink-500);
 }
 
 .list {
@@ -283,7 +279,7 @@ dt {
 }
 dd {
   margin-left: 0;
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-md);
 }
 dd + dt {
   margin-top: var(--space-md);
@@ -461,7 +457,7 @@ dd + dt {
   width: 100%;
 }
 .post-link__title {
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-md);
   text-align: center;
 }
 .post-link__category, .post-link__meta {
@@ -474,4 +470,39 @@ dd + dt {
 .post-link__meta {
   flex-grow: 1;
   align-items: flex-end;
+}
+.number {
+  text-align: right;
+}
+table {
+  background-color: white;
+}
+table th, td {
+  padding: var(--space-xs) var(--space-sm);
+}
+table thead th {
+  border-bottom: 2px solid var(--gray-600);
+}
+
+pre {
+  background-color: white;
+  padding: var(--space-md);
+  font-size: var(--font-size-md);
+  margin-left: calc(-1 * var(--space-md));
+  margin-right: calc(-1 * var(--space-md));
+  overflow: auto;
+}
+code .nt, code .nc, code .nd {
+  color: var(--gray-400);
+}
+code .na, code .nl, code .py,
+code {
+  color: var(--pink-500);
+}
+code .s, code .n, code .nb {
+  color: var(--blue-500);
+}
+.horizontal-scroll {
+  overflow: auto;
+  /* margin-top: var(--space-lg); */
 }
