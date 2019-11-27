@@ -287,35 +287,95 @@ dd + dt {
 
 .card {
   display: block;
-  border: 1px solid var(--gray-200);
-  box-shadow: var(--shadow);
+  border: var(--space-xxs) solid var(--gray-700);
   padding: var(--space-sm) var(--space-md);
   background-color: white;
 }
 
-.talks {
+.de-stijl {
   display: grid;
+  /* grid-auto-columns: minmax(15rem, 1fr); */
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-  grid-gap: var(--space-md);
+  grid-gap: var(--space-sm);
+  gap: var(--space-sm);
+}
+.de-stijl > * {
+  --bg-color: var(--gray-100);
+  display: grid;
+  grid-gap: var(--space-xxs);
+  gap: var(--space-xxs);
+  background-color: var(--gray-700);
+  border: var(--space-xxs) solid var(--gray-700);
+  grid-template-columns: repeat(5, minmax(var(--space-sm), auto));
+  grid-template-rows: repeat(5, minmax(var(--space-sm), auto));
+  grid-template-areas:
+    "a1 a1 a1 a5 a5"
+    "a1 a1 a1 a4 a4"
+    "a1 a1 a1 a3 a3"
+    "a2 a2 a2 a3 a3"
+    "blank blank a6 a3 a3";
+}
+.de-stijl > * > * {
+  margin: 0;
+  padding: var(--space-sm);
+  background-color: white;
 }
 
-.talk {
+.de-stijl > :nth-child(3n) {
+  grid-row-end: span 2;
+}
+.de-stijl > :nth-child(5n) {
+  grid-row-end: span 3;
+}
+.de-stijl > :nth-child(4n+1) {
+  grid-template-areas:
+    "a1 a1 a1 a1 a1"
+    "a2 a2 a3 a3 a3"
+    "a2 a2 a3 a3 a3"
+    "blank a4 a4 a5 a5"
+    "blank a4 a4 a5 a5";
+}
+.de-stijl > :nth-child(3n+2) {
+  grid-template-areas:
+    "a1 a1 a2 a2 a2"
+    "a1 a1 a3 a3 a3"
+    "a1 a1 a3 a3 a3"
+    "a1 a1 a4 a4 a5"
+    "a1 a1 a4 a4 a5";
+}
+
+.de-stijl > :nth-child(4n+2) {
+  --bg-color: var(--pink-200);
+}
+.de-stijl > :nth-child(4n+4) {
+  --bg-color: var(--blue-200);
+}
+
+.talk h3 {
+  grid-area: a1;
+  background-color: var(--bg-color);
+}
+.talk .subtitle {
+  grid-area: a2;
+}
+.talk > a {
   display: flex;
-  flex-direction: column;
-  margin-bottom: 2rem; /* IE11 Fallback, overridden w/ variable */
-  margin-bottom: var(--margin-bottom-with-grid);
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.talk__title {
-  margin: 0;
+.talk > a:first-of-type {
+  grid-area: a4;
 }
-.talk__places {
-  padding: 0;
+.talk > a:nth-of-type(2) {
+  grid-area: a5;
+}
+.talk .places {
+  grid-area: a3;
+  background-color: var(--bg-color);
   list-style: none;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: var(--font-size-xs);
-  margin-top: var(--space-md);
-  margin-bottom: 0;
   font-weight: 500;
   color: var(--gray-500);
 
@@ -324,16 +384,10 @@ dd + dt {
   flex-direction: column;
   justify-content: flex-end;
 }
-.talk__places a {
+.talk .places a {
   color: var(--gray-500);
 }
-.talk__places li {
-  margin-top: var(--space-xs);
-}
-.talk__link {
-  margin-top: var(--space-md);
-}
-.talk__link + .talk__link {
+.talk places li {
   margin-top: var(--space-xs);
 }
 
@@ -351,8 +405,8 @@ dd + dt {
   display: flex;
   align-items: center;
 }
-.icon-link .icon {
-  margin-right: var(--space-xs);
+.icon-link > * {
+  margin: calc(var(--space-xs) / 2);
 }
 
 .primary {
@@ -383,7 +437,7 @@ dd + dt {
 }
 .podcast__image {
   max-width: 8rem;
-  box-shadow: var(--shadow);
+  border: var(--space-xxs) solid var(--gray-700);
 }
 .podcast__role {
   text-transform: uppercase;
