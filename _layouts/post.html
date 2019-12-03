@@ -3,7 +3,13 @@ layout: default
 ---
 <section class="post bg-gray">
   <div class="container">
-    <h1 class="post__title">{{ page.post-title }}</h1>
+    <h1 class="post__title">
+      {% if page.post-title %}
+        {{ page.post-title }}
+      {% else %}
+        {{ page.title }}
+      {% endif %}
+    </h1>
     <p class="post__meta">{{ page.categories | first | capitalize }} <i class="fa fa-heart"></i>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     {{ content }}
   </div>

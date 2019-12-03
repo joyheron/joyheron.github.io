@@ -17,7 +17,13 @@ html-title: Joy Heron - Blog
             <div class="post-link__category">
                 {{ post.categories | first | capitalize }}
             </div>
-            <h2 class="post-link__title">{{ post.post-title }}</h2>
+            <h2 class="post-link__title">
+                {% if post.post-title %}
+                    {{ post.post-title }}
+                {% else %}
+                    {{ post.title }}
+                {% endif %}
+            </h2>
             <div class="post-link__meta">
                 {{ post.date | date: '%B %d, %Y' }}
             </div>

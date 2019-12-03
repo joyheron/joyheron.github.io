@@ -1,23 +1,23 @@
 ---
 layout: post
-title: "Intrinsic Design - CSS Content Breakpoints for Abbreviations"
-post-title: "CSS Content Breakpoints for Abbreviations"
+title: Simple CSS Pattern to Dynamically Abbreviate Text
 date: 2019-11-26 21:50
 categories: css blog
 permalink: /css-content-breakpoints
 thumbnail: /img/thumbnail/responsive-css-breakpoints.png
+description: Use this CSS pattern to dynamically show or abbreviate text based on the amount of space that is available.
 ---
 
-I find [intrinsic design](http://www.zeldman.com/2018/05/02/transcript-intrinsic-web-design-with-jen-simmons-the-big-web-show/) absolutely facinating.
+Ideally, an HTML element should be able to decide for itself
+the best way that it should be displayed based on the current
+amount of space that is available. This is the idea behind
+[intrinsic design](http://www.zeldman.com/2018/05/02/transcript-intrinsic-web-design-with-jen-simmons-the-big-web-show/).
 
 Instead of trying to design a static layout for one viewport and
 then force my content into that layout, I start by writing
 semantic HTML and then add a layer of CSS as a _suggestion_ for
 my content so that the browser can decide what the best way to
 render the page.
-
-An element can decide for itself the best way that it should be
-displayed based on the current amount of space that is available.
 
 Consider the [sidebar layout](https://every-layout.dev/layouts/sidebar/) which splits up into a sidebar and main content area
 based on the amount of space that is available.
