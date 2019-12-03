@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Intrinsic Design"
+title: "Intrinsic Design - CSS Content Breakpoints for Abbreviations"
 post-title: "CSS Content Breakpoints for Abbreviations"
 date: 2019-11-26 21:50
 categories: css blog
