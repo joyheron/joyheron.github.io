@@ -321,6 +321,7 @@ dd + dt {
 }
 
 .de-stijl-complex {
+  --bar-width: var(--space-sm);
   display: flex;
   overflow: hidden;
   flex-wrap: wrap;
@@ -328,7 +329,7 @@ dd + dt {
 .de-stijl-complex > * {
   flex: 1 1 auto;
   display: grid;
-  grid-template-columns: [first-column] var(--space-lg) [content-start] 1fr [content-middle] 1fr [content-end] var(--space-lg) [last-column];
+  grid-template-columns: [first-column] var(--bar-width) [content-start] 1fr [content-middle] 1fr [content-end] var(--bar-width) [last-column];
   grid-template-rows: repeat(12, auto) [last-line];
   align-items: center;
   justify-content: center;
@@ -361,8 +362,8 @@ dd + dt {
   content: "";
   height: 100%;
   width: 100%;
-  min-height: var(--space-lg);
-  min-width: var(--space-lg);
+  min-height: var(--bar-width);
+  min-width: var(--bar-width);
   border: 0.1rem solid black;
   display: block;
 }
