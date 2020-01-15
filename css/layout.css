@@ -418,7 +418,7 @@ dd + dt {
 
 .talk h3 {
   margin: 0;
-  font-size: calc(1rem + .8vw);
+  font-size: calc(1rem + .7vw);
 }
 .talk .subtitle {
   font-variation-settings: 'ital' 1, 'slnt' -5.2;
