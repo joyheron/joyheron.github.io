@@ -5,10 +5,10 @@ page-title: Sketchnotes & More
 html-title: Joy Heron - Blog
 ---
 
-<ul class="post-links">
+<ul class="de-stijl">
     {% for post in site.posts %}
     <li class="post-link">
-        <a class="card post-link__link" href="{{ post.url | prepend: site.baseurl }}">
+        <a class="post-link__link" href="{{ post.url | prepend: site.baseurl }}">
             <div class="post-link__image">
                 {% if post.thumbnail != null %}
                     <img src="{{ post.thumbnail }}" alt="{{ post.post-title }} Thumbnail" />
