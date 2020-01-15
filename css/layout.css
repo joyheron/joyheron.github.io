@@ -35,14 +35,19 @@ html {
 
   --font-size-xs: 0.5rem;
   --font-size-sm: 0.75rem;
-  --font-size-md: 1rem;
-  --font-size-lg: 1.5rem;
+  --font-size-md: calc(1rem + 0.1vw);
+  --font-size-lg: calc(1rem + 2vw);
+  --font-size-xl: calc(1rem + 4vw);
 
   --margin-bottom-with-grid: 0;
 
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Recursive', Arial, Helvetica, sans-serif;
   font-size: var(--font-size-md);
   color: var(--gray-700);
+}
+
+:root {
+  font-variation-settings: 'CASL' 0, 'MONO' 0;
 }
 
 *, *::before, *::after {
@@ -78,6 +83,7 @@ a:hover {
 .list {
   padding-left: var(--space-md);
   line-height: 1.5;
+  margin-bottom: var(--space-md);
 }
 
 img {
@@ -91,11 +97,8 @@ section {
 
 .section-title {
   color: var(--blue-700);
-  font-weight: normal;
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
-  font-size: 20px;
-  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: var(--font-size-xl);
   margin-bottom: var(--space-lg);
 }
 
@@ -172,9 +175,6 @@ section {
   box-shadow: var(--shadow);
   flex-basis: 20rem;
 }
-.landing__title {
-  font-family: 'Fira Sans Condensed', sans-serif;
-}
 
 /* BACKGROUND */
 .bg-pink {
@@ -205,8 +205,7 @@ section {
   margin: var(--space-sm);
   color: #58646f;
   color: var(--gray-500);
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  font-variation-settings: 'ital' 1, 'slnt' -5.2;
   text-decoration: none;
   border-bottom: 2px solid transparent;
 }
@@ -219,9 +218,7 @@ section {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: var(--space-xs) calc(-1 * var(--space-xxs));
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: var(--font-size-sm);
+  font-variation-settings: 'ital' 1, 'slnt' -5.2;
   grid-gap: var(--space-xs);
 }
 .page-nav > * {
@@ -260,32 +257,37 @@ section {
   color: var(--pink-600);
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-weight: bold;
+  font-weight: 600;
+  font-variation-settings: 'MONO' 1;
 }
 .text-gray {
   color: var(--gray-400);
-  font-weight: lighter;
+  font-weight: 500;
   font-size: var(--font-size-md);
-  text-transform: uppercase;
+  font-variation-settings: 'ital' 1, 'slnt' -5.2;
 }
 
 h1 {
   margin-top: 0;
+  font-size: var(--font-size-lg);
 }
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
+  font-weight: 800;
+  margin-bottom: var(--space-md);
 }
 
+dt {
+  letter-spacing: 1px;
+  color: var(--blue-700);
+  font-weight: 500;
+  font-variation-settings: 'ital' 1, 'slnt' -5.2;
+  line-height: 2;
+}
 dl {
   margin: 0;
 }
-dt {
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: lighter;
-  font-size: var(--font-size-sm);
-  line-height: 2;
-}
+
 dd {
   margin-left: 0;
   font-size: var(--font-size-md);
@@ -416,7 +418,10 @@ dd + dt {
 
 .talk h3 {
   margin: 0;
-  font-size: calc(1rem + .5vw);
+  font-size: calc(1rem + .8vw);
+}
+.talk .subtitle {
+  font-variation-settings: 'ital' 1, 'slnt' -5.2;
 }
 .talk .places, .talk .links {
   list-style: none;
@@ -461,7 +466,7 @@ dd + dt {
 
 .podcasts {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   grid-gap: var(--space-md);
 }
 
@@ -484,21 +489,18 @@ dd + dt {
 .podcast__role {
   text-transform: uppercase;
   margin-bottom: var(--space-sm);
-  font-size: var(--font-size-xs);
   color: var(--gray-400);
   text-align: center;
 }
 .podcast__date {
   text-transform: uppercase;
   margin-top: var(--space-sm);
-  font-size: var(--font-size-xs);
   color: var(--gray-400);
 }
 
 .writing__description {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: var(--font-size-xs);
   margin-bottom: var(--space-md);
 }
 
@@ -507,7 +509,6 @@ dd + dt {
 }
 
 .post__title {
-  margin: 0;
   margin-top: var(--space-xl);
 }
 .post__meta {
@@ -527,7 +528,7 @@ dd + dt {
   list-style: none;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   grid-gap: var(--space-md);
 }
 .post-link {
@@ -561,7 +562,8 @@ dd + dt {
   align-items: center;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: var(--font-size-xs);
+  font-weight: 300;
+  font-size: var(--font-size-sm);
 }
 .post-link__meta {
   flex-grow: 1;

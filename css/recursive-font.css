@@ -1,0 +1,11 @@
+/*!
+ *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'Recursive';
+  src: url('../fonts/recursive.woff2') format('woff2-variations');
+  font-weight: 300 1000;
+}
