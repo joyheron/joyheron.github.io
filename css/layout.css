@@ -45,6 +45,15 @@ html {
   color: var(--gray-700);
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -287,110 +296,143 @@ dd + dt {
 
 .card {
   display: block;
-  border: var(--space-xxs) solid var(--gray-700);
+  border: 1px solid var(--gray-200);
   padding: var(--space-sm) var(--space-md);
   background-color: white;
 }
 
 .de-stijl {
-  display: grid;
-  /* grid-auto-columns: minmax(15rem, 1fr); */
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-  grid-gap: var(--space-sm);
-  gap: var(--space-sm);
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.de-stijl {
+  flex-wrap: wrap;
 }
 .de-stijl > * {
-  --bg-color: var(--gray-100);
+  flex: 1 1 auto;
   display: grid;
-  grid-gap: var(--space-xxs);
-  gap: var(--space-xxs);
-  background-color: var(--gray-700);
-  border: var(--space-xxs) solid var(--gray-700);
-  grid-template-columns: repeat(5, minmax(var(--space-sm), auto));
-  grid-template-rows: repeat(5, minmax(var(--space-sm), auto));
-  grid-template-areas:
-    "a1 a1 a1 a5 a5"
-    "a1 a1 a1 a4 a4"
-    "a1 a1 a1 a3 a3"
-    "a2 a2 a2 a3 a3"
-    "blank blank a6 a3 a3";
+  grid-template-columns: [first-column] var(--space-lg) [content-start] 1fr [content-middle] 1fr [content-end] var(--space-lg) [last-column];
+  grid-template-rows: repeat(12, auto) [last-line];
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  outline: 0.1rem solid;
+  text-align: center;
 }
 .de-stijl > * > * {
-  margin: 0;
-  padding: var(--space-sm);
-  background-color: white;
+  grid-column: content-start / content-end;
 }
-
-.de-stijl > :nth-child(3n) {
-  grid-row-end: span 2;
+.de-stijl > *::before {
+  grid-row: -1;
+  background-color: var(--gray-100);
 }
-.de-stijl > :nth-child(5n) {
-  grid-row-end: span 3;
+.de-stijl > *::after {
+  grid-column: content-start / last-column;
+  grid-row: -1;
+  background-color: var(--gray-200);
 }
-.de-stijl > :nth-child(4n+1) {
-  grid-template-areas:
-    "a1 a1 a1 a1 a1"
-    "a2 a2 a3 a3 a3"
-    "a2 a2 a3 a3 a3"
-    "blank a4 a4 a5 a5"
-    "blank a4 a4 a5 a5";
+.de-stijl > * > * {
+  padding: var(--space-xs) var(--space-md);
 }
-.de-stijl > :nth-child(3n+2) {
-  grid-template-areas:
-    "a1 a1 a2 a2 a2"
-    "a1 a1 a3 a3 a3"
-    "a1 a1 a3 a3 a3"
-    "a1 a1 a4 a4 a5"
-    "a1 a1 a4 a4 a5";
+.de-stijl > * > *:first-child {
+  margin-top: var(--space-lg);
 }
-
-.de-stijl > :nth-child(4n+2) {
-  --bg-color: var(--pink-200);
+.de-stijl > * > *:last-child {
+  margin-bottom: var(--space-lg);
 }
-.de-stijl > :nth-child(4n+4) {
-  --bg-color: var(--blue-200);
+.de-stijl > *::before, .de-stijl > *::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  min-height: var(--space-lg);
+  min-width: var(--space-lg);
+  border: 0.1rem solid black;
+  display: block;
+}
+.de-stijl > *:nth-child(6n + 2)::before {
+  grid-row: 2 / -1;
+}
+.de-stijl > *:nth-child(6n + 2)::after {
+  grid-row: auto / -1;
+  grid-column-end: content-middle;
+}
+.de-stijl > *:nth-child(6n + 3)::before {
+  grid-row: 3 / -1;
+  grid-column: content-end / last-column;
+}
+.de-stijl > *:nth-child(6n + 3)::after {
+  grid-row: auto / -1;
+  grid-column: content-start / content-end;
+}
+.de-stijl > *:nth-child(6n + 4)::before {
+  grid-row: 1 / 2;
+  grid-column: content-middle / content-end;
+}
+.de-stijl > *:nth-child(6n + 4)::after {
+  grid-row: 1 / 4;
+  grid-column: content-end / last-column;
+}
+.de-stijl > *:nth-child(6n + 5)::before {
+  grid-row: 1 / 2;
+  grid-column: content-middle / content-end;
+}
+.de-stijl > *:nth-child(6n + 5)::after {
+  grid-row: 1 / 2;
+  grid-column: first-column / content-middle;
+}
+.de-stijl > *:nth-child(6n + 6)::before {
+  grid-row: 1 / 2;
+  grid-column: first-column / content-end;
+}
+.de-stijl > *:nth-child(6n + 6)::after {
+  grid-row: 2 / -1;
+  grid-column: first-column / content-start;
+}
+.de-stijl > *:last-child::before {
+  grid-row: 1 / 4;
+  grid-column: first-column / content-start;
+}
+.de-stijl > *:last-child::after {
+  grid-row: 1 / 2;
+  grid-column: content-start / content-middle;
+}
+.de-stijl > *:nth-child(4n + 1)::after {
+  background-color: var(--pink-600);
+}
+.de-stijl > *:nth-child(5n + 2)::before {
+  background-color: var(--blue-200);
+}
+.de-stijl > *:nth-child(3n + 3)::before {
+  background-color: var(--pink-300);
+}
+.de-stijl > *:nth-child(5n + 3)::after {
+  background-color: var(--blue-400);
+}
+.de-stijl > *:nth-child(4n + 4)::before {
+  background-color: var(--pink-100);
 }
 
 .talk h3 {
-  grid-area: a1;
-  background-color: var(--bg-color);
+  margin: 0;
+  font-size: calc(1rem + .5vw);
 }
-.talk .subtitle {
-  grid-area: a2;
-}
-.talk > a {
+.talk .places, .talk .links {
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
+  flex: 1 1 auto;
   justify-content: center;
 }
-.talk > a:first-of-type {
-  grid-area: a4;
-}
-.talk > a:nth-of-type(2) {
-  grid-area: a5;
-}
 .talk .places {
-  grid-area: a3;
-  background-color: var(--bg-color);
-  list-style: none;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: var(--font-size-xs);
-  font-weight: 500;
-  color: var(--gray-500);
-
-  flex-grow: 1;
-  display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  text-transform: uppercase;
+  font-size: var(--font-size-sm);
 }
-.talk .places a {
-  color: var(--gray-500);
+.talk li {
+  margin: var(--space-xxs);
 }
-.talk places li {
-  margin-top: var(--space-xs);
-}
-
 .slides {
   max-width: 20rem;
 }
