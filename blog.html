@@ -5,26 +5,26 @@ page-title: Sketchnotes & More
 html-title: Joy Heron - Blog
 ---
 
-<ul class="de-stijl">
+<ul class="de-stijl-borders">
     {% for post in site.posts %}
     <li class="post-link">
-        <a class="post-link__link" href="{{ post.url | prepend: site.baseurl }}">
-            <div class="post-link__image">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+            <div class="image">
                 {% if post.thumbnail != null %}
                     <img src="{{ post.thumbnail }}" alt="{{ post.post-title }} Thumbnail" />
                 {% endif %}
             </div>
-            <div class="post-link__category">
+            <div class="category">
                 {{ post.categories | first | capitalize }}
             </div>
-            <h2 class="post-link__title">
+            <h2 class="title">
                 {% if post.post-title %}
                     {{ post.post-title }}
                 {% else %}
                     {{ post.title }}
                 {% endif %}
             </h2>
-            <div class="post-link__meta">
+            <div class="meta">
                 {{ post.date | date: '%B %d, %Y' }}
             </div>
         </a>
