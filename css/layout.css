@@ -45,9 +45,8 @@ html {
   font-family: 'Recursive', Arial, Helvetica, sans-serif;
   font-size: var(--font-size-md);
   color: var(--gray-700);
-}
 
-:root {
+  --italic-font: 'CASL' 1, 'slnt' -9, 'ital' 1;
   font-variation-settings: 'CASL' 0, 'MONO' 0;
 }
 
@@ -206,7 +205,7 @@ section {
   margin: var(--space-sm);
   color: #58646f;
   color: var(--gray-500);
-  font-variation-settings: 'ital' 1, 'slnt' -5.2;
+  font-variation-settings: var(--italic-font);
   text-decoration: none;
   border-bottom: 2px solid transparent;
 }
@@ -219,7 +218,7 @@ section {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: var(--space-xs) calc(-1 * var(--space-xxs));
-  font-variation-settings: 'ital' 1, 'slnt' -5.2;
+  font-variation-settings: var(--italic-font);
   grid-gap: var(--space-xs);
 }
 .page-nav > * {
@@ -265,7 +264,7 @@ section {
   color: var(--gray-400);
   font-weight: 500;
   font-size: var(--font-size-md);
-  font-variation-settings: 'ital' 1, 'slnt' -5.2;
+  font-variation-settings: var(--italic-font);
 }
 
 h1 {
@@ -282,7 +281,7 @@ dt {
   letter-spacing: 1px;
   color: var(--blue-700);
   font-weight: 500;
-  font-variation-settings: 'ital' 1, 'slnt' -5.2;
+  font-variation-settings: var(--italic-font);
   line-height: 2;
 }
 dl {
@@ -435,7 +434,7 @@ dd + dt {
   font-size: var(--font-size-lg);
 }
 .talk .subtitle {
-  font-variation-settings: 'ital' 1, 'slnt' -5.2;
+  font-variation-settings: var(--italic-font);
 }
 .talk .places, .talk .links {
   list-style: none;
