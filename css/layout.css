@@ -1,11 +1,12 @@
-html {
-  --blue-700: hsl(185, 100%, 18%);
-  --blue-600: hsl(185, 90%, 27%);
-  --blue-500: hsl(185, 83%, 39%);
-  --blue-400: hsl(185, 73%, 51%);
-  --blue-300: hsl(185, 85%, 72%);
-  --blue-200: hsl(185, 93%, 88%);
-  --blue-100: hsl(185, 100%, 98%);
+:root {
+  --blue-hue: 215;
+  --blue-700: hsl(var(--blue-hue), 100%, 18%);
+  --blue-600: hsl(var(--blue-hue), 90%, 27%);
+  --blue-500: hsl(var(--blue-hue), 83%, 39%);
+  --blue-400: hsl(var(--blue-hue), 73%, 51%);
+  --blue-300: hsl(var(--blue-hue), 85%, 72%);
+  --blue-200: hsl(var(--blue-hue), 93%, 88%);
+  --blue-100: hsl(var(--blue-hue), 100%, 98%);
 
   --gray-700: hsl(209, 15%, 18%);
   --gray-600: hsl(209, 12%, 27%);
