@@ -38,7 +38,7 @@
   --space-md: 1.25rem;
   --space-lg: 2rem;
   --space-xl: 3.25rem;
-  --space-xxl: 5.25rem;
+  --space-xxl: 4rem;
 
   --shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);
 
@@ -228,7 +228,7 @@ section {
 .page-nav {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: var(--space-xs) calc(-1 * var(--space-xxs));
   font-variation-settings: var(--italic-font);
   grid-gap: var(--space-xs);
@@ -254,8 +254,6 @@ section {
   list-style: none;
   padding-left: 0;
   display: flex;
-  grid-area: links;
-  justify-content: center;
   margin-top: var(--space-lg);
   margin-bottom: 0;
 }
@@ -306,6 +304,37 @@ dd {
 }
 dd + dt {
   margin-top: var(--space-md);
+}
+
+
+
+.de-stijl hr {
+  --bar-width: var(--space-sm);
+  border: 0;
+  margin: 0;
+  display: flex;
+}
+.de-stijl hr::before,
+.de-stijl hr::after {
+  content: "";
+  display: block;
+  min-width: var(--bar-width);
+  height: var(--bar-width);
+  border: 1px solid black;
+}
+
+.de-stijl hr::before {
+  background-color: var(--gray-200);
+}
+.de-stijl hr::after {
+  width: 60%;
+  background-color: var(--gray-200);
+}
+.de-stijl hr:nth-of-type(2n + 2)::before {
+  width: 20%;
+}
+.de-stijl hr + section {
+  margin-top: calc(-1 * var(--space-sm));
 }
 
 .de-stijl-borders {
@@ -402,22 +431,28 @@ dd + dt {
   grid-row: 1 / 2;
   grid-column: content-start / content-middle;
 }
-.de-stijl-borders > *:nth-child(4n + 1)::after {
+.de-stijl-borders > *:nth-child(4n + 1)::after,
+.de-stijl hr:nth-of-type(4n + 1)::after {
   background-color: var(--pink-600);
 }
-.de-stijl-borders > *:nth-child(5n + 2)::before {
+.de-stijl-borders > *:nth-child(5n + 2)::before,
+.de-stijl hr:nth-of-type(5n + 2)::after {
   background-color: var(--blue-200);
 }
-.de-stijl-borders > *:nth-child(3n + 3)::before {
+.de-stijl-borders > *:nth-child(3n + 3)::before,
+.de-stijl hr:nth-of-type(3n + 3)::before {
   background-color: var(--pink-300);
 }
-.de-stijl-borders > *:nth-child(5n + 3)::after {
+.de-stijl-borders > *:nth-child(5n + 3)::after,
+.de-stijl hr:nth-of-type(5n + 3)::after {
   background-color: var(--blue-400);
 }
-.de-stijl-borders > *:nth-child(4n + 4)::before {
+.de-stijl-borders > *:nth-child(4n + 4)::before,
+.de-stijl hr:nth-of-type(4n + 4)::before {
   background-color: var(--pink-100);
 }
-.de-stijl-borders > *:nth-child(6n + 4)::after {
+.de-stijl-borders > *:nth-child(6n + 4)::after,
+.de-stijl hr:nth-of-type(6n + 4)::after {
   background-color: var(--yellow-400);
 }
 
