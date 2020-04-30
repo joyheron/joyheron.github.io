@@ -1,9 +1,11 @@
 <nav class="navbar">
+    {% if page.title != 'About' %}
     <a class="navbar__item" href="/">
         <i class="fa fa-heart"></i>
     </a>
+    {% endif %}
     {% if page.title != null %}
-        <a class="navbar__item" href="/">Joy Heron</a>
+        <a class="navbar__item" href="/">Home</a>
     {% endif %}
     {% for page in site.pages %}
     {% if page.title %}

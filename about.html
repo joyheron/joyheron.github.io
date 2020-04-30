@@ -4,75 +4,62 @@ title: About
 html-title: Joy Heron - About
 ---
 
-<section class="bg-yellow">
-    <div class="container">
-        <div class="asymmetric-two-columns asymmetric-two-columns--margin">
-            <div class="asymmetric-two-columns__stay image-container">
-                <img class="profile-image" src="/img/profile-medium.jpg" alt="Profile Picture of Joy">
-            </div>
-            <div class="asymmetric-two-columns__grow">
-                <h1>About Me</h1>
-                <p>
-                    My name is Joy Heron, and I...
-                </p>
-                <ul class="list">
-                    <li>develop software</li>
-                    <li>love functional programming</li>
-                    <li>care about UX and good design</li>
-                    <li>find web applications fascinating</li>
-                </ul>
-                {% include social-links.html %}
-            </div>
-        </div>
-    </div>
-</section>
-<div class="container container--padding">
+<header>
+    {% include nav.html %}
+    <h1>Joy Heron</h1>
+    <img class="profile-image" src="/img/profile-medium.jpg" alt="Profile Picture of Joy">
     <nav class="page-nav">
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#talks">Talks</a>
-        <a href="#podcasts">Podcasts</a>
-        <a href="#writing">Writing</a>
-        <a href="#education">Education</a>
+        <ul>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#talks">Talks</a></li>
+            <li><a href="#writing">Writing</a></li>
+            <li><a href="#podcasts">Podcasts</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul> 
     </nav>
-</div>
+    {% include social-links.html %}
+</header>
 
-<section id="skills">
+<section class="section" id="skills">
+    <h2 class="section-title">My skills at a Glance</h2>
     <div class="container">
-        <h2 class="section-title">My skills at a Glance</h2>
-        <dl>
-            <dt>Programming Languages</dt>
-            <dd>Java, JavaScript, Clojure, ClojureScript, Groovy, Prolog, Python, Ruby</dd>
-            <dt>Software Architecture</dt>
-            <dd>Microservices, SCS, HTTP, REST, Microfrontends, Domain-driven Design</dd>
-            <dt>Frontend Technologies & Design</dt>
-            <dd>
-                CSS, HTML, Bootstrap, Web Components, Figma, Customer Testing & UX,
-                Vanilla JS, Plotly, jQuery, DataTables, mustache, Thymeleaf, JSX
-            </dd>
-            <dt>Backend Technologies</dt>
-            <dd>Spring Boot, compojure, Express, Rails, Web Security</dd>
-            <dt>Databases</dt>
-            <dd>SQL, Cassandra, Solr, Neo4J</dd>
-            <dt>Testing</dt>
-            <dd>JUnit, Cypress, Selenium, Spock</dd>
-            <dt>Software Development Tools</dt>
-            <dd>Git, IntelliJ, Eclipse, Emacs, Maven, Gradle, JIRA, Scrum, YourKit, Jenkins, GitLab CI, Docker</dd>
-            <dt>Moderation Techniques</dt>
-            <dd>Open Space Method, Event Storming, Visual Recording</dd>
-            <dt>Formal Methods</dt>
-            <dd>B-Method, Event-B</dd>
-            <dt>Other</dt>
-            <dd>LaTeX, Mac OS, Linux, bash</dd>
-        </dl>
+        <div class="two-columns-flex">
+            <dl>
+                <dt>Programming Languages</dt>
+                <dd>Java, JavaScript, Clojure, ClojureScript, Groovy, Prolog, Python, Ruby</dd>
+                <dt>Software Architecture</dt>
+                <dd>Microservices, SCS, HTTP, REST, Microfrontends, Domain-driven Design</dd>
+                <dt>Frontend Technologies & Design</dt>
+                <dd>
+                    CSS, HTML, Bootstrap, Web Components, Figma, Customer Testing & UX,
+                    Vanilla JS, Plotly, jQuery, DataTables, mustache, Thymeleaf, JSX
+                </dd>
+                <dt>Backend Technologies</dt>
+                <dd>Spring Boot, compojure, Express, Rails, Web Security</dd>
+                <dt>Databases</dt>
+                <dd>SQL, Cassandra, Solr, Neo4J</dd>
+            </dl>
+            <dl>
+                <dt>Testing</dt>
+                <dd>JUnit, Cypress, Selenium, Spock</dd>
+                <dt>Software Development Tools</dt>
+                <dd>Git, IntelliJ, Eclipse, Emacs, Maven, Gradle, JIRA, Scrum, YourKit, Jenkins, GitLab CI, Docker</dd>
+                <dt>Moderation Techniques</dt>
+                <dd>Open Space Method, Event Storming, Visual Recording</dd>
+                <dt>Formal Methods</dt>
+                <dd>B-Method, Event-B</dd>
+                <dt>Other</dt>
+                <dd>LaTeX, Mac OS, Linux, bash</dd>
+            </dl>
+        </div>
     </div>
 </section>
 
 <hr />
-<section id="experience" class="bg-blue">
+<section class="section" id="experience">
+    <h2 class="section-title">What have I done?</h2>
     <div class="container">
-        <h2 class="section-title">What have I done?</h2>
-
         <h3 class="subsection-title">
             Software Consultant at <a href="https://www.innoq.com/en/">INNOQ</a>
             <div class="text-gray">2016 - present</div>
@@ -134,13 +121,11 @@ html-title: Joy Heron - About
 </section>
 
 <hr />
-<section id="talks">
-    <div class="container">
-        <h2 class="section-title">Talks I have given</h2>
-    </div>
-        
-
+<section class="section de-stijl" id="talks">
     <div class="de-stijl-borders">
+        <h2 class="section-title">
+            My Talks
+        </h2>
         <div class="talk">
             <h3>Moderne Frontend Entwicklung</h3>
             <ul class="links">
@@ -373,12 +358,45 @@ html-title: Joy Heron - About
 </section>
 
 <hr />
-<section id="podcasts" class="bg-gray">
+<section class="section" id="writing">
+    <h2 class="section-title">My Writing</h2>
     <div class="container">
-        <h2 class="section-title">Podcasts I have been on</h2>
+        <ul class="list">
+            <li>
+                <a class="writing__link" href="https://www.innoq.com/de/blog/html-forms/">The Power of the HTML Form</a>
+                <div class="writing__description">Blog Article on the INNOQ Blog</div>
+            </li>
+            <li>
+                <a class="writing__link" href="https://www.innoq.com/de/blog/simplicity-fighting-complexity/">
+                    Simplicity &ndash; Fighting Complexity at all Costs
+                </a>
+                <div class="writing__description">Blog Article on the INNOQ Blog</div>
+            </li>
+            <li>
+                <a class="writing__link" href="https://www.innoq.com/de/blog/oidc-playground/">
+                    A Playground for Testing OpenID Connect
+                </a>
+                <div class="writing__description">Blog Article on the INNOQ Blog</div>
+            </li>
+            <li>
+                <a class="writing__link" href="https://link.springer.com/chapter/10.1007%2F978-3-319-33600-8_11">An Algorithm Description Language for Event-B</a>
+                <div class="writing__description">Article published for the ABZ 2016</div>
+            </li>
+            <li>
+                <a class="writing__link" href="https://www.heise.de/developer/artikel/Die-jungen-Wilden-Joy-Clark-3909659.html">Die junge Wilden: Joy Clark</a>
+                <div class="writing__description">Interview on heise.de (German)</div>
+            </li>
+        </ul>
+        <p>
+            Find sketchnotes and more samples of my writing on my <a href="/blog.html">blog</a>.
+        </p>
     </div>
+</section>
 
+<hr />
+<section class="section de-stijl" id="podcasts">
     <div class="de-stijl-borders">
+        <h2 class="section-title">Podcasts</h2>
         <div class="podcast">
             <div class="podcast__role">Host on CaSE Podcast</div>
             <img class="podcast__image" src="/img/thumbnail/case-podcast.png" alt="CaSE Podcast Logo" />
@@ -543,47 +561,11 @@ html-title: Joy Heron - About
 </section>
 
 <hr />
-<section id="writing">
+<section class="section" id="education">
+    <h2 class="section-title">
+        My Education
+    </h2>
     <div class="container">
-        <h2 class="section-title">My Writing around the Web</h2>
-        <ul class="list">
-            <li>
-               <a class="writing__link" href="https://www.innoq.com/de/blog/html-forms/">The Power of the HTML Form</a>
-               <div class="writing__description">Blog Article on the INNOQ Blog</div>
-            </li>
-            <li>
-                <a class="writing__link" href="https://www.innoq.com/de/blog/simplicity-fighting-complexity/">
-                    Simplicity &ndash; Fighting Complexity at all Costs
-                </a>
-                <div class="writing__description">Blog Article on the INNOQ Blog</div>
-            </li>
-            <li>
-                <a class="writing__link" href="https://www.innoq.com/de/blog/oidc-playground/">
-                    A Playground for Testing OpenID Connect
-                </a>
-                <div class="writing__description">Blog Article on the INNOQ Blog</div>
-            </li>
-            <li>
-                <a class="writing__link" href="https://link.springer.com/chapter/10.1007%2F978-3-319-33600-8_11">An Algorithm Description Language for Event-B</a>
-                <div class="writing__description">Article published for the ABZ 2016</div>
-            </li>
-            <li>
-                <a class="writing__link" href="https://www.heise.de/developer/artikel/Die-jungen-Wilden-Joy-Clark-3909659.html">Die junge Wilden: Joy Clark</a>
-                <div class="writing__description">Interview on heise.de (German)</div>
-            </li>
-        </ul>
-        <p>
-            Find sketchnotes and more samples of my writing on my <a href="/blog.html">blog</a>.
-        </p>
-    </div>
-</section>
-
-<hr />
-<section id="education" class="bg-yellow">
-    <div class="container">
-        <h2 class="section-title">
-            My Education
-        </h2>
         <h3 class="subsection-title">
             Master of Science in Computer Science
             <div class="text-gray">University of Düsseldorf: October 2013 &ndash; February 2016</div>
@@ -597,8 +579,6 @@ html-title: Joy Heron - About
                 <dd>Deutschland Stipendium: Scholarship for Academic Excellence October 2014 &ndash; October 2015</dd>
                 <dt>Dissertation Topic</dt>
                 <dd>An Algorithm Description Language for Event-B</dd>
-            </dl>
-            <dl>
                 <dt>Selected Course Work</dt>
                 <dd>
                     <ul class="list">
@@ -626,8 +606,6 @@ html-title: Joy Heron - About
                 <dd class="hoverable" title="1,0 is the highest possible grade.">1,5*</dd>
                 <dt>Dissertation Topic</dt>
                 <dd>Data Visualization in ProB</dd>
-            </dl>
-            <dl>
                 <dt>Selected Course Work</dt>
                 <dd>
                     <ul class="list">
