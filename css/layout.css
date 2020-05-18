@@ -42,10 +42,10 @@
 
   --shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);
 
-  --font-size-xs: 0.75rem;
-  --font-size-sm: 0.875rem;
+  --font-size-xs: 0.75em;
+  --font-size-sm: 0.875em;
   --font-size-md: 1.125rem;
-  --font-size-lg: 1.5rem;
+  --font-size-lg: 1.25em;
   --font-size-xl: 2em;
   --font-size-xxl: calc(1rem + 4vh);
 
@@ -53,6 +53,7 @@
   --center-align-with-grid: center;
   --serif-body-font: 'Georgia Pro', Georgia, 'Times New Roman', Times, serif;
   --serif-emphasis-font: 'Playfair Display', 'Georgia Pro', Georgia, serif;
+  --sans-serif-font: 'Montserrat', sans-serif;
 
   font-family: var(--serif-body-font);
   font-size: var(--font-size-md);
@@ -109,7 +110,8 @@ section {
 .section-title {
   color: var(--blue-700);
   font-weight: 600;
-  font-size: var(--font-size-xxl);
+  font-size: 2em;
+  font-size: min(var(--font-size-xl), var(--font-size-xxl));
   margin: 0;
 }
 
@@ -304,10 +306,11 @@ dt {
   letter-spacing: 1px;
   color: var(--pink-500);
   font-family: var(--serif-emphasis-font);
-  line-height: 2;
+  margin-bottom: var(--space-xs);
 }
 dl {
   margin: 0;
+  margin-top: var(--space-sm);
 }
 
 dd {
@@ -367,7 +370,7 @@ dd + dt {
     display: block;
     min-width: var(--bar-width);
     height: var(--bar-width);
-    border: 1px solid black;
+    border: 0.05rem solid black;
   }
   .de-stijl hr::before {
     background-color: var(--gray-200);
@@ -383,10 +386,12 @@ dd + dt {
     margin-top: calc(-1 * var(--space-sm));
   }
   .de-stijl-borders {
+    --gap: var(--space-sm);
     --bar-width: var(--space-sm);
+    --margin-bottom-with-grid: calc(var(--gap) / 2);
     display: flex;
-    overflow: hidden;
     flex-wrap: wrap;
+    margin: calc(-1 * var(--gap) / 2);
   }
   .de-stijl-borders > * {
     flex: 1 1 auto;
@@ -396,8 +401,9 @@ dd + dt {
     align-items: center;
     justify-content: center;
     justify-items: center;
-    outline: 0.1rem solid;
     text-align: center;
+    box-shadow: var(--shadow);
+    margin: calc(var(--gap) / 2);
   }
   .de-stijl-borders > * > * {
     grid-column: content-start / content-end;
@@ -412,9 +418,6 @@ dd + dt {
     grid-row: -1;
     background-color: var(--gray-200);
   }
-  .de-stijl-borders > * > * {
-    
-  }
   .de-stijl-borders > * > *:first-child {
     margin-top: var(--space-lg);
   }
@@ -427,7 +430,7 @@ dd + dt {
     width: 100%;
     min-height: var(--bar-width);
     min-width: var(--bar-width);
-    border: 0.1rem solid black;
+    border: 0.05rem solid black;
     display: block;
   }
   .de-stijl-borders > *:nth-child(6n + 2)::before {
@@ -510,12 +513,12 @@ dd + dt {
   .de-stijl-borders .section-title {
     display: flex;
     outline: none;
-    padding-block-end: var(--space-xs);
-    margin-inline-end: calc(-1 * var(--space-lg));
+    margin-block-end: 0;
     background-color: var(--background-color);
     flex-grow: 0;
     z-index: 1;
     justify-content: flex-end;
+    box-shadow: none;
   }
   .section:nth-last-of-type(2n + 1) .de-stijl-borders {
     flex-direction: row-reverse;
@@ -552,6 +555,7 @@ dd + dt {
   flex-direction: column;
   text-transform: uppercase;
   font-size: var(--font-size-xs);
+  font-family: var(--sans-serif-font);
 }
 .talk li {
   margin: var(--space-xxs);
@@ -590,13 +594,13 @@ dd + dt {
 }
 .podcast__title {
   text-align: var(--center-align-with-grid);
-  margin-top: var(--space-md);
   flex-grow: 1;
   font-size: var(--font-size-lg);
+  margin: 0;
 }
 .podcast__image {
   padding: 0;
-  max-width: 10rem;
+  max-width: 7.5rem;
   box-shadow: var(--shadow);
 }
 .podcast__role {
@@ -604,17 +608,23 @@ dd + dt {
   margin-bottom: var(--space-sm);
   color: var(--gray-400);
   text-align: var(--center-align-with-grid);
+  font-family: var(--sans-serif-font);
+  font-size: var(--font-size-xs);
 }
 .podcast__date {
   text-transform: uppercase;
   margin-top: var(--space-sm);
   color: var(--gray-400);
+  font-family: var(--sans-serif-font);
+  font-size: var(--font-size-xs);
 }
 
 .writing__description {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: var(--space-md);
+  font-family: var(--sans-serif-font);
+  font-size: var(--font-size-xs);
 }
 
 .hoverable {
@@ -670,6 +680,8 @@ dd + dt {
   letter-spacing: 1px;
   font-weight: 300;
   font-size: var(--font-size-xs);
+  margin-top: var(--space-xxs);
+  font-family: var(--sans-serif-font);
 }
 .post-link .meta {
   flex-grow: 1;
