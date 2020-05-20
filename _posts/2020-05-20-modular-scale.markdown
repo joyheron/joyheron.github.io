@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Modular Scale to Achieve Consistent Design
-date: 2020-05-20 23:36
+date: 2020-05-20 21:46
 categories: css blog
 permalink: /2020-modular-scale-migration
 thumbnail: /img/2020-05-20-modular-scale/modular-scale.png

@@ -6,7 +6,11 @@
     <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{ site.description }}{% endif %}">
     <meta name="author" content="Joy Heron">
 
-    <meta name="twitter:card" value="summary">
+    {% if page.image %}
+        <meta name="twitter:card" value="summary_large_image">
+    {% else %}
+        <meta name="twitter:card" value="summary">
+    {% endif %}
     <meta name="twitter:site" content="@iamjoyheron">
     {% if page.title %}
         <meta name="twitter:title" content="{{ page.title }}">
