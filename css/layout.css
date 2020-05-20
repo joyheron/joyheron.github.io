@@ -59,6 +59,7 @@
   font-family: var(--serif-body-font);
   font-size: var(--font-size-md);
   color: var(--gray-700);
+  line-height: 1.6;
 
   --background-color: white;
 }
@@ -78,7 +79,7 @@ body {
 }
 
 p {
-  line-height: var(--font-size-md);
+  font-size: var(--font-size-md);
 }
 
 a {
