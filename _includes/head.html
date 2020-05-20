@@ -6,6 +6,32 @@
     <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{ site.description }}{% endif %}">
     <meta name="author" content="Joy Heron">
 
+    <meta name="twitter:card" value="summary">
+    <meta name="twitter:site" content="@iamjoyheron">
+    {% if page.title %}
+        <meta name="twitter:title" content="{{ page.title }}">
+    {% endif %}
+    {% if page.description %}
+        <meta name="twitter:description" content="{{ page.description }}">
+    {% endif %}
+    <meta name="twitter:creator" content="@iamjoyheron">
+    {% if page.image %}
+        <meta name="twitter:image" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
+
+    {% if page.title %}
+        <meta property="og:title" content="{{ page.title }}" />
+    {% endif %}
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
+    {% if page.image %}
+        <meta property="og:image" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}" />
+    {% endif %}
+    {% if page.description %}
+        <meta property="og:description" content="{{ page.description }}" />
+    {% endif %}
+    <meta property="og:site_name" content="Joy Heron" />
+
     {% feed_meta %}
 
     <title>
