@@ -47,8 +47,9 @@
   --font-size-md: 1.125rem;
   --font-size-lg: 1.82rem;
   --font-size-xl: 2.945rem;
-  --font-size-md-grow: calc(var(--font-size-md) + 1vw);
-  --font-size-lg-grow: calc(var(--font-size-md) + 2vw);
+  --font-size-md-grow: min(var(--font-size-md) + 1vw, var(--font-size-lg));
+  --font-size-lg-grow: min(var(--font-size-md) + 2vw, var(--font-size-xl));
+  --font-size-xl-grow: min(var(--font-size-lg) + 2vw, var(--font-size-xl));
 
   --margin-bottom-with-grid: 0;
   --center-align-with-grid: center;
@@ -111,7 +112,7 @@ section {
 .section-title {
   color: var(--blue-700);
   font-weight: 600;
-  font-size: 2em;
+  font-size: 1.82rem; /* Fallback */
   font-size: var(--font-size-lg-grow);
   margin: 0;
   position: sticky;
@@ -298,14 +299,23 @@ p {
 
 h1 {
   margin-top: 0;
-  font-size: var(--font-size-xl);
+  font-size: 2.945rem;
+  font-size: var(--font-size-xl-grow);
 }
 h1, h2, h3, h4, h5, h6 {
-  line-height: 1.5;
+  line-height: 1.2;
   font-weight: 800;
   margin-bottom: var(--space-md);
   font-family: var(--serif-emphasis-font);
   font-weight: 600;
+}
+h2 {
+  font-size: 1.82rem; /* Fallback */
+  font-size: var(--font-size-lg-grow);
+}
+h3 {
+  font-size: 1.125rem; /* Fallback */
+  font-size: var(--font-size-md-grow);
 }
 
 dt {
@@ -527,6 +537,7 @@ dd + dt {
 }
 .talk h3 {
   margin: 0;
+  font-size: 1.125rem; /* Fallback */
   font-size: var(--font-size-md-grow);
 }
 .talk .places, .talk .links {
@@ -580,6 +591,7 @@ dd + dt {
 .podcast__title {
   text-align: var(--center-align-with-grid);
   flex-grow: 1;
+  font-size: 1.125rem; /* Fallback */
   font-size: var(--font-size-md-grow);
   margin: 0;
 }
@@ -655,6 +667,7 @@ dd + dt {
   width: 100%;
 }
 .post-link .title {
+  font-size: 1.125rem; /* Fallback */
   font-size: var(--font-size-md-grow);
   text-align: center;
 }
