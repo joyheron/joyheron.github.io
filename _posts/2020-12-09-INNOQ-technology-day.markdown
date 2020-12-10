@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "INNOQ Technology Day"
-date: 2020-12-09 22:00
+date: 2020-12-10 22:00
 categories: sketchnote conference
 tags: tech
 thumbnail: /img/thumbnail/2020-12-09-innoq-technology-day/03.jpg
