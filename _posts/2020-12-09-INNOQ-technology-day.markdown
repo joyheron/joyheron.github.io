@@ -5,7 +5,7 @@ date: 2020-12-10 22:00
 categories: sketchnote conference
 tags: tech
 thumbnail: /img/thumbnail/2020-12-09-innoq-technology-day/03.jpg
-image: /img/2020-05-20-modular-scale/modular-scale.png
+image: /img/2020-12-09-innoq-technology-day/03.jpg
 description: A write up of the first INNOQ Technology Day with a few sketchnotes
 ---
 
