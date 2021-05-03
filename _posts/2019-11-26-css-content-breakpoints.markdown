@@ -108,7 +108,7 @@ By using the `aria-label` attribute, the full unabbreviated text
 will be available to a screen reader.
 
 I then set the content of the `::before` and `::after`
-pseudo-elements in my HTML 
+pseudo-elements in my HTML
 
 ```css
 .squishable::before {
@@ -230,7 +230,7 @@ of the table header.
     <tr>
       <th>
         <span class="squishable"
-          aria-label="Short Header" 
+          aria-label="Short Header"
           data-short="Header"
           style="--squish-at: 5ch;"/>
       </th>
