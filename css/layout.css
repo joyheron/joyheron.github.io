@@ -241,7 +241,7 @@ p {
   margin: 0.75rem; /* IE11 Fallback */
   margin: var(--space-xs);
   color: #58646f;
-  color: var(--gray-500);
+  color: var(--gray-600);
   text-decoration: none;
   border-bottom: 2px solid transparent;
 }
@@ -294,7 +294,7 @@ p {
   font-weight: 600;
 }
 .text-gray {
-  color: var(--gray-500);
+  color: var(--gray-600);
   font-weight: 500;
   font-size: var(--font-size-md);
 }
@@ -327,7 +327,7 @@ h3 {
 
 dt {
   letter-spacing: 1px;
-  color: var(--pink-500);
+  color: var(--pink-600);
   font-family: var(--serif-emphasis-font);
   margin-bottom: var(--space-xs);
 }
@@ -614,7 +614,7 @@ dd + dt {
 .podcast__role {
   text-transform: uppercase;
   margin-bottom: var(--space-sm);
-  color: var(--gray-400);
+  color: var(--gray-600);
   text-align: var(--center-align-with-grid);
   font-family: var(--sans-serif-font);
   font-size: var(--font-size-sm);
@@ -622,7 +622,7 @@ dd + dt {
 .podcast__date {
   text-transform: uppercase;
   margin-top: var(--space-sm);
-  color: var(--gray-400);
+  color: var(--gray-600);
   font-family: var(--sans-serif-font);
   font-size: var(--font-size-sm);
 }
